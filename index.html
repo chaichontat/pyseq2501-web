@@ -4,20 +4,20 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>PySeq 2501</title>
+		<title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 
 		
 
 		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/start-464e9d0a.css">
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-a69c0836.css">
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/index.svelte-06937cc0.css">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/start-2855a08e.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-8fea4e3b.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-2a6b1bcf.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-cfc2f76b.js">
+		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-21866cb9.css">
+		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/index.svelte-ae74732a.css">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/start-6e19efe4.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-63cd64ea.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-7c108c4f.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-490d1b16.js">
 
 		<script type="module">
-			import { start } from "/pyseq2501-web/internal/start-2855a08e.js";
+			import { start } from "/pyseq2501-web/internal/start-6e19efe4.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
@@ -29,8 +29,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/pyseq2501-web/internal/pages/__layout.svelte-2a6b1bcf.js"),
-						import("/pyseq2501-web/internal/pages/index.svelte-cfc2f76b.js")
+						import("/pyseq2501-web/internal/pages/__layout.svelte-7c108c4f.js"),
+						import("/pyseq2501-web/internal/pages/index.svelte-490d1b16.js")
 					],
 					url: new URL("http://prerender/"),
 					params: {}
@@ -43,8 +43,9 @@
 
 
 
-<div><div class="drawer drawer-mobile"><input id="main-menu" type="checkbox" class="drawer-toggle">
-    <main class="flex-grow block overflow-x-hidden bg-base-100 text-base-content drawer-content"><div id="nav" class="inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-base-200 bg-base-100 text-base-content sticky"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex-none"><label for="main-menu" class="btn btn-square btn-ghost drawer-button lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></label></div>
+
+<div><div class="drawer drawer-mobile antialiased"><input id="main-menu" type="checkbox" class="drawer-toggle">
+    <main class="flex-grow block overflow-x-hidden text-base-content drawer-content bg-white shadow-md"><div id="nav" class="inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out text-base-content sticky ring-1 ring-gray-900 ring-opacity-5 shadow-sm bg-white"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex-none"><label for="main-menu" class="btn btn-square btn-ghost drawer-button lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></label></div>
 
     <div class="flex items-center flex-none lg:hidden"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex items-center flex-none"><span aria-label="Homepage" class="px-2 flex-0 md:px-4 "><div class="inline-block text-3xl"><span class="normal-case font-light">PySeq</span><span class="grad font-medium svelte-11n8j87"> 2501</span></div></span></div>
   <a href="https://github.com/chaichontat/pyseq2501/" target="_blank" rel="nofollow" class="font-mono text-xs opacity-50"><div data-tip="Changelog" class="tooltip tooltip-bottom"><span class="hidden lg:inline">version</span> 0.0.1
@@ -71,11 +72,14 @@
     <button class="_btn btn--secondary svelte-10c5x4u">Cancel</button></content>
 
   <div class="border stats border-base-300 flex-grow"><div class="stat"><div class="stat-figure text-primary"><button class="btn loading btn-circle btn-lg bg-base-200 btn-ghost"></button></div>
-      <span class="stat-value"><span class="font-mono">--</span>
-        /
-        <input type="number" class="input stat-value w-24" min="1" max="999" placeholder="1" value="5"></span>
+      <div class="flex"><span class="stat-value"><span class="font-mono">--</span>
+          /
+          <input type="number" class="input stat-value w-30 text-right px-2" min="1" max="999" placeholder="1" value="8"></span>
+        <div class="flex flex-col ml-2 opacity-75"><span>Height 0.384 mm</span>
+          <span>Total time: 0.192 s</span></div></div>
+
       <div class="stat-title">Bundles taken</div>
-      <div class="stat-desc"><progress max="5" class="progress progress-secondary"></progress></div></div></div>
+      <div class="stat-desc"><progress max="8" class="progress progress-secondary"></progress></div></div></div>
 </span>
 
 <div class="mt-4 max-h-full center shadow border border-gray-400"><canvas id="canvas" width="1024" height="800"></canvas></div>
@@ -83,7 +87,7 @@
 
 </div></main>
     <div class="drawer drawer-side"><label for="main-menu" class="drawer-overlay"></label>
-  <aside class="sidebar flex flex-col overflow-y-auto bg-base-100 svelte-ce0834"><div class="hidden lg:block sticky inset-x-0 top-0 z-40 w-full py-1 transition duration-200 ease-in-out border-b border-base-200 bg-base-100"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex items-center flex-none"><span aria-label="Homepage" class="px-2 flex-0 md:px-4 "><div class="inline-block text-3xl"><span class="normal-case font-light">PySeq</span><span class="grad font-medium svelte-11n8j87"> 2501</span></div></span></div>
+  <aside class="sidebar flex flex-col overflow-y-auto bg-base-100 svelte-ce0834"><div class="hidden lg:block sticky inset-x-0 top-0 z-40 w-full py-1 transition duration-200 ease-in-out ring-1 ring-gray-900 ring-opacity-5 shadow-sm bg-white"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex items-center flex-none"><span aria-label="Homepage" class="px-2 flex-0 md:px-4 "><div class="inline-block text-3xl"><span class="normal-case font-light">PySeq</span><span class="grad font-medium svelte-11n8j87"> 2501</span></div></span></div>
   <a href="https://github.com/chaichontat/pyseq2501/" target="_blank" rel="nofollow" class="font-mono text-xs opacity-50"><div data-tip="Changelog" class="tooltip tooltip-bottom"><span class="hidden lg:inline">version</span> 0.0.1
     </div></a>
 </div></div>
@@ -127,27 +131,28 @@
   <div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:93.33333333333333%;"><div class="text svelte-1t3bdud">7</div>
     <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div></div></div>
 </div>
-  <div id="cross" class="absolute z-40 text-2xl text-blue-700 transition-all" style="top:calc(2.4000666666666666% - 1.2rem); left:calc(-71.572265625% - 0.5rem);">×</div>
+  <div id="cross" class="absolute z-40 text-2xl text-blue-700 transition-all" style="top:calc(2.3999866666666665% - 1.2rem); left:calc(-71.6015625% - 0.5rem);">×</div>
 
-<div id="horz" class="absolute w-full border-t border-blue-200 transition-all z-30" style="top:calc(2.4000666666666666% - 1px); right:0%; width:171.572265625%;"></div>
+<div id="horz" class="absolute w-full border-t border-blue-200 transition-all z-30" style="top:calc(2.3999866666666665% - 1px); right:0%; width:171.6015625%;"></div>
   
 
-<span id="legend" class="z-20 absolute font-mono font-bold text-center w-36 transition-all text-blue-700" style="top:calc(2.4000666666666666% + 0.6rem); left:calc(-71.572265625% - 4.5rem); text-shadow: 0px 0px 2px white, 0px 0px 5px white, 0px 0px 10px white">(-17.9, 1.8)
+<span id="legend" class="z-20 absolute font-mono font-bold text-center w-36 transition-all text-blue-700" style="top:calc(2.3999866666666665% + 0.6rem); left:calc(-71.6015625% - 4.5rem); text-shadow: 0px 0px 2px white, 0px 0px 5px white, 0px 0px 10px white">(-17.9, 1.8)
   </span>
-  <div id="cross" class="absolute z-40 text-2xl text-blue-700 transition-all" style="top:calc(2.6666666666666665% - 1.65rem); left:calc(8% - 0.8rem);">📍</div>
+  <div id="cross" class="absolute z-40 text-2xl text-blue-700 transition-all" style="top:calc(0% - 1.65rem); left:calc(0% - 0.8rem);">📍</div>
 
 
 
 
-  <div class="dot left top-8 svelte-12uprtv"><div>Tilt 3<div class="absolute right-8 leading-6 font-mono font-medium svelte-1ihce9a">2</div></div>
+  <div id="shade" class="absolute z-20 transition-all svelte-134l18c" style="bottom:calc(100%; left:calc(0%); height:0.512%; width:3.072%;"></div>
+  <div class="dot left top-8 svelte-12uprtv"><div>Tilt 3<div class="absolute right-8 leading-6 font-mono font-medium svelte-e9wu2w">-1</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div>
 
-<span class="dot left svelte-12uprtv" style="top: 19rem;"><div>Tilt 2<div class="absolute right-8 leading-6 font-mono font-medium svelte-1ihce9a">1</div></div>
+<span class="dot left svelte-12uprtv" style="top: 19rem;"><div>Tilt 2<div class="absolute right-8 leading-6 font-mono font-medium svelte-e9wu2w">-1</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></span>
 
 <span class="dot right svelte-12uprtv"><button class="mr-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button>
   <div>Tilt 1
-    <div class="absolute left-6 leading-6 font-mono font-medium svelte-1ihce9a">0</div></div>
+    <div class="absolute left-6 leading-6 font-mono font-medium svelte-e9wu2w">-1</div></div>
 </span>
 
   <span class="name svelte-9russs">A</span>
@@ -158,18 +163,18 @@
 
   
   <section class="flex flex-grow space-x-8 self-center mt-4"><div class="flex self-center"><div class="flex flex-col"><span class="w-24 text-center font-medium">All Tilt</span>
-    <div class="leading-6 font-mono font-medium text-center svelte-1ihce9a">0</div></div>
+    <div class="leading-6 font-mono font-medium text-center svelte-e9wu2w">19850</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div>
     <div class="flex self-center"><div class="flex flex-col"><span class="w-24 text-center font-medium">Objective Z</span>
-    <div class="leading-6 font-mono font-medium text-center svelte-1ihce9a">0</div></div>
+    <div class="leading-6 font-mono font-medium text-center svelte-e9wu2w">-1</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div></section>
 
   
 
-<div class="form-control self-center mt-4"><label class="font-medium input-group"><span><div data-tip="-17.89" class="tooltip tooltip-bottom"><b>X</b></div></span>
-    <input type="number" min="-5" max="30" step="0.7" class="text-lg text-center input input-bordered inputcheck w-28 h-10" value="2">
-    <span><div data-tip="1.80" class="tooltip tooltip-bottom"><b>Y</b></div></span>
-    <input type="number" min="-5" max="80" step="0.7" class="text-lg text-center input input-bordered inputcheck w-28 h-10" value="2">
+<div class="form-control self-center mt-4"><label class="font-medium input-group"><span><div data-tip="-17.90 mm" class="tooltip tooltip-bottom"><b>X</b></div></span>
+    <input type="number" min="-5" max="30" step="0.7" class="text-lg text-center input input-bordered inputcheck w-28 h-10" value="0">
+    <span><div data-tip="1.80 mm" class="tooltip tooltip-bottom"><b>Y</b></div></span>
+    <input type="number" min="-5" max="80" step="0.7" class="text-lg text-center input input-bordered inputcheck w-28 h-10" value="0">
 
     <button class="font-sans content-center w-12 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800" tabindex="0">Go
     </button></label></div>
@@ -195,21 +200,20 @@
     <tbody><tr style="--this-color: #84cc16"><th class="svelte-1g5cwvo"><svg class="h-4 w-4 inline-block -translate-y-0.5" viewBox="0 0 20 20" fill="#84cc16"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
     532 nm</th>
 
-  <td class="svelte-1g5cwvo"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g5cwvo" style="margin: 0 auto;"></td>
-  <td class="text-center font-bold font-mono svelte-1g5cwvo">5</td>
+  <td class="svelte-1g5cwvo"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g5cwvo" style="margin: 0 auto;" value="5"></td>
+  <td class="text-center font-bold font-mono svelte-1g5cwvo">-1</td>
   <td class="text-right svelte-1g5cwvo">mW</td>
 </tr>
       <tr style="--this-color: #ef4444"><th class="svelte-1g5cwvo"><svg class="h-4 w-4 inline-block -translate-y-0.5" viewBox="0 0 20 20" fill="#ef4444"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
     633 nm</th>
 
-  <td class="svelte-1g5cwvo"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g5cwvo" style="margin: 0 auto;"></td>
-  <td class="text-center font-bold font-mono svelte-1g5cwvo">3</td>
+  <td class="svelte-1g5cwvo"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g5cwvo" style="margin: 0 auto;" value="5"></td>
+  <td class="text-center font-bold font-mono svelte-1g5cwvo">-1</td>
   <td class="text-right svelte-1g5cwvo">mW</td>
 </tr></tbody></table>
 </li>
           <li><span class="self-center mt-2 text-lg">Shutter:  <p class="font-mono font-bold">CLOSED</p></span></li></div></li></ol></div></aside>
 </div></div></div>
-
 
 </div>
 	</body>
