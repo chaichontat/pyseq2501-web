@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="mytheme">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
+
+		
+
+		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/start-464e9d0a.css">
+		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-31f46395.css">
+		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-97aee26c.css">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/start-6ec823ca.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-88195046.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-069d90f6.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-fed5d02b.js">
+		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-5f3e0299.js">
+
+		<script type="module">
+			import { start } from "/pyseq2501-web/internal/start-6ec823ca.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/pyseq2501-web/internal/pages/__layout.svelte-069d90f6.js"),
+						import("/pyseq2501-web/internal/pages/main.svelte-fed5d02b.js")
+					],
+					url: new URL("http://prerender/main"),
+					params: {}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+
+
+
+
+
+<span class="flex flex-row gap-x-3 w-full"><content class="grid grid-row-2 gap-y-2 w-32"><button class="_btn btn--primary svelte-10c5x4u">Start</button>
+    <button class="_btn btn--secondary svelte-10c5x4u">Autofocus</button></content>
+
+  <div class="border stats border-base-300 flex-grow"><div class="stat"><div class="stat-figure text-primary"><button class="btn loading btn-circle btn-lg bg-base-200 btn-ghost"></button></div>
+      <div class="flex"><span class="stat-value"><span class="font-mono">0</span>
+          /
+          <input type="number" class="input stat-value w-36 text-right px-2" min="1" max="999" placeholder="1" value="8"></span>
+        <div class="flex flex-col ml-4 opacity-75"><span>Height 0.384 mm</span>
+          <span>Total time: 0.192 s</span></div></div>
+
+      <div class="stat-title">Bundles taken</div>
+      <div class="stat-desc"><progress value="0" max="8" class="progress progress-secondary transition-all"></progress></div></div></div>
+</span>
+
+<div class="mt-4 center shadow border border-gray-400" style="height:75vh;"><canvas id="canvas" width="2048" height="1024" style="border:2px solid #000000;"></canvas></div>
+
+
+
+
+</div>
+	</body>
+</html>
