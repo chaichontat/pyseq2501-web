@@ -1,5 +1,5 @@
 <script>
-  import Logo from "../logo.svelte";
+  import Logo from "../../routes/logo.svelte";
   import Connected from "./connected.svelte";
   import Status from "./status.svelte";
 </script>
@@ -71,7 +71,8 @@
         href="https://github.com/saadeghi/daisyui"
         rel="noopener"
         class="normal-case btn btn-ghost drawer-button btn-square"
-        ><svg
+      >
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
           class="inline-block w-6 h-6 fill-current"

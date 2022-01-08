@@ -5,7 +5,7 @@
 </script>
 
 {#if connected}
-  <span class="font-semibold text-sm" style="color:rgb(26, 127, 55);">
+  <span class="flex font-semibold text-sm" style="color:rgb(26, 127, 55);">
     Connected
     <svg
       aria-label="connected"
@@ -13,7 +13,7 @@
       height="16"
       viewBox="0 0 16 16"
       fill="rgb(26, 127, 55)"
-      class="pl-1"
+      class="pl-1 translate-y-0.5"
     >
       <path
         fill-rule="evenodd"
@@ -22,7 +22,7 @@
     </svg>
   </span>
 {:else}
-  <span class="mt-1 font-semibold text-sm animate-bounce" style="color:rgb(207, 34, 46);">
+  <span class="flex mt-1 font-semibold text-sm animate-bounce" style="color:rgb(207, 34, 46);">
     Not Connected
     <svg
       role="img"
@@ -30,7 +30,7 @@
       viewBox="0 0 16 16"
       version="1.1"
       fill="rgb(207, 34, 46)"
-      class="pl-1"
+      class="pl-1 translate-y-0.5"
     >
       <path
         fill-rule="evenodd"

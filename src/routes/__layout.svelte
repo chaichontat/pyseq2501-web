@@ -1,5 +1,6 @@
 <script lang="ts">
   import "../app.css";
+  import Header from "./header.svelte";
 </script>
 
 <svelte:head>
@@ -7,4 +8,8 @@
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 </svelte:head>
 
-<slot />
+<!-- Body -->
+<div class="font-sans antialiased text-gray-800 min-h-full flex flex-col">
+  <Header />
+  <slot />
+</div>
