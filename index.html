@@ -5,45 +5,41 @@
 		<link rel="icon" href="favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
-
-		
-
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/start-464e9d0a.css">
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-81e16ee9.css">
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-97aee26c.css">
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-9ae13abb.css">
-		<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-a1bec3bd.css">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/start-8b546547.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-88195046.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-069d90f6.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-5a7dddad.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-686cfedc.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-9884f86a.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-f59a63a0.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-63de9638.js">
-		<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-f194ccfd.js">
-
-		<script type="module">
-			import { start } from "/pyseq2501-web/internal/start-8b546547.js";
-			start({
-				target: document.querySelector("#svelte"),
-				paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
-				session: {},
-				route: true,
-				spa: false,
-				trailing_slash: "never",
-				hydrate: {
-					status: 200,
-					error: null,
-					nodes: [
-						import("/pyseq2501-web/internal/pages/__layout.svelte-069d90f6.js"),
-						import("/pyseq2501-web/internal/pages/index.svelte-5a7dddad.js")
-					],
-					url: new URL("http://prerender/"),
-					params: {}
-				}
-			});
-		</script>
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-af6101b5.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-ca0b4fcc.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-9ae13abb.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-e2e01cd0.css">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-49d07c5b.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-2c8cd3e7.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-8a9c3ff5.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-bd097c04.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-57f4540f.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-f30a8796.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-9fbf69a2.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-0b50bebb.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-d9d20b3c.js">
+			<script type="module">
+				import { start } from "/pyseq2501-web/internal/start-49d07c5b.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/pyseq2501-web/internal/pages/__layout.svelte-8a9c3ff5.js"),
+						import("/pyseq2501-web/internal/pages/index.svelte-bd097c04.js")
+						],
+						url: new URL("http://sveltekit-prerender/pyseq2501-web"),
+						params: {}
+					}
+				});
+			</script>
 	</head>
 	<body>
 		<div id="svelte">
@@ -64,6 +60,9 @@
     <span class="mx-4">Idle</span></div>
 
     <div class="flex-1"></div>
+    <div class="tabs"><a class="tab tab-lg tab-bordered tab-active">Manual</a>
+      <a class="tab tab-lg tab-bordered">Automatic</a></div>
+
     <span class="mt-1 font-semibold text-sm animate-bounce" style="color:rgb(207, 34, 46);">Not Connected
     <svg role="img" height="16" viewBox="0 0 16 16" version="1.1" fill="rgb(207, 34, 46)" class="pl-1"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg></span>
     
@@ -74,36 +73,167 @@
       <div class="p-4 lg:px-10">
 
 
-<span class="flex flex-row gap-x-3 w-full"><content class="grid grid-row-2 gap-y-2 w-32"><button class="_btn btn--primary svelte-10c5x4u">Start</button>
-    <button class="_btn btn--secondary svelte-10c5x4u">Autofocus</button></content>
+<span class="flex flex-row gap-x-3 w-full"><content class="grid grid-row-2 gap-y-2 w-32"><button class="_btn btn--primary svelte-10uwj7s">Start</button>
+    <button class="_btn btn--secondary svelte-10uwj7s">Autofocus</button></content>
 
   <div class="border stats border-base-300 flex-grow"><div class="stat"><div class="stat-figure text-primary"><button class="btn loading btn-circle btn-lg bg-base-200 btn-ghost"></button></div>
       <div class="flex"><span class="stat-value"><span class="font-mono">  --</span>
           /
-          <input type="number" class="input stat-value w-36 text-right px-2" min="1" max="999" placeholder="1" value="8"></span>
-        <div class="flex flex-col ml-4 opacity-75"><span>Height 0.384 mm</span>
-          <span>Total time: 0.192 s</span></div>
-        <div class="flex flex-col ml-4"><button class="btn btn-sm btn--secondary svelte-10c5x4u">Take Dark</button>
-          <span>Dark Corrected<input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div></div>
+          <input type="number" class="input stat-value w-36 text-right px-2" min="1" max="999" placeholder="1" value="16"></span>
+        <div class="flex flex-col ml-4 opacity-75"><span>Height 0.768 mm</span>
+          <span>Total time: 0.384 s</span></div>
+        <div class="flex flex-col ml-4"><button class="btn btn-sm btn--secondary svelte-10uwj7s">Take Dark</button>
+          <span>Dark Corrected<input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div>
+        <span>Show Histogram<input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div>
 
       <div class="stat-title">Bundles taken</div>
-      <div class="stat-desc"><progress value="8" max="8" class="progress progress-secondary transition-all"></progress></div></div></div>
+      <div class="stat-desc"><progress value="16" max="16" class="progress progress-secondary transition-all"></progress></div></div></div>
 </span>
 
-<div class="mt-4 center shadow border border-gray-400" style="height:75vh;"><canvas id="canvas" width="2048" height="1024" style="border:2px solid #000000; background-color: gray;"></canvas></div>
+<div class="my-8"><p class="text-gray-600 font-bold text-2xl pb-3 border-b">Steps</p>
+  <ul class="divide-y divide-gray-500"><li class="relative flex py-6 border-b border-gray-50"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+
+  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-50 text-lg font-bold rounded-full">1</span></div>
+
+  <div>
+<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Wash</b>
+
+      
+      <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+
+  
+  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1py0wu opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1py0wu">
+      <div href="#" class="svelte-1py0wu">Hold</div></section>
+    <section class="svelte-1py0wu">
+      <div class="svelte-1py0wu">Wash</div>
+      <div class="svelte-1py0wu">Prime</div>
+      <div class="svelte-1py0wu">Change Temperature</div></section>
+    <section class="svelte-1py0wu"><div class="svelte-1py0wu">Image</div>
+      <div class="svelte-1py0wu">Move Stage</div></section></div>
+</div>
+
+    <div class="clump grid grid-cols-3 divide-x font-medium svelte-1mmvv7w"><span class="svelte-1mmvv7w">Reagent <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="250"> μl/min
+        </span>
+        <span class="svelte-1mmvv7w">Volume <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="2000"> μl
+        </span></div>
+
+    
+    <p class="text-lg"></p></div>
+</li>
+    <li class="relative flex py-6 border-b border-gray-50"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+
+  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-50 text-lg font-bold rounded-full">2</span></div>
+
+  <div>
+<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Wash</b>
+
+      
+      <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+
+  
+  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1py0wu opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1py0wu">
+      <div href="#" class="svelte-1py0wu">Hold</div></section>
+    <section class="svelte-1py0wu">
+      <div class="svelte-1py0wu">Wash</div>
+      <div class="svelte-1py0wu">Prime</div>
+      <div class="svelte-1py0wu">Change Temperature</div></section>
+    <section class="svelte-1py0wu"><div class="svelte-1py0wu">Image</div>
+      <div class="svelte-1py0wu">Move Stage</div></section></div>
+</div>
+
+    <div class="clump grid grid-cols-3 divide-x font-medium svelte-1mmvv7w"><span class="svelte-1mmvv7w">Reagent <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="250"> μl/min
+        </span>
+        <span class="svelte-1mmvv7w">Volume <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="2000"> μl
+        </span></div>
+
+    
+    <p class="text-lg"></p></div>
+</li>
+    <li class="relative flex py-6 border-b border-gray-50"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+
+  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-50 text-lg font-bold rounded-full">3</span></div>
+
+  <div>
+<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Wash</b>
+
+      
+      <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+
+  
+  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1py0wu opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1py0wu">
+      <div href="#" class="svelte-1py0wu">Hold</div></section>
+    <section class="svelte-1py0wu">
+      <div class="svelte-1py0wu">Wash</div>
+      <div class="svelte-1py0wu">Prime</div>
+      <div class="svelte-1py0wu">Change Temperature</div></section>
+    <section class="svelte-1py0wu"><div class="svelte-1py0wu">Image</div>
+      <div class="svelte-1py0wu">Move Stage</div></section></div>
+</div>
+
+    <div class="clump grid grid-cols-3 divide-x font-medium svelte-1mmvv7w"><span class="svelte-1mmvv7w">Reagent <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="250"> μl/min
+        </span>
+        <span class="svelte-1mmvv7w">Volume <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="2000"> μl
+        </span></div>
+
+    
+    <p class="text-lg"></p></div>
+</li></ul>
+
+  <button type="button" class="transition-colors shadow-lg shadow-blue-500/50 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="-ml-2 mr-1 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+    Add Step
+  </button></div>
+
+<div class="mt-4 center shadow border border-gray-400 relative" style="height:75vh;"><canvas id="canvas" width="2048" height="2048" style="border:2px solid #000000; background-color: gray;"></canvas>
+  <div id="histogram" class="z-40 absolute bottom-8 right-8 shadow-lg rounded" style="width:400px; height:300px; background-color:white;"><div class="chart svelte-hvuhv1"><div class="foreground svelte-hvuhv1"><div class="pancake-chart svelte-1togmj7"><div class="pancake-grid"><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 100%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+        <span class="y label svelte-hvuhv1">0</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 80%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+        <span class="y label svelte-hvuhv1">0.2</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 60%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+        <span class="y label svelte-hvuhv1">0.4</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 40%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+        <span class="y label svelte-hvuhv1">0.6</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 20%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+        <span class="y label svelte-hvuhv1">0.8</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 0%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+        <span class="y label svelte-hvuhv1">1</span>
+		</div>
+</div>
+
+      <div class="pancake-box svelte-1994x9i" style="left: -0.06103515625%; bottom: 0%; width: 0.1220703125%; height: 0%;"><div class="column f z-10 svelte-hvuhv1"></div>
+	
+</div><div class="pancake-box svelte-1994x9i" style="left: 48.76708984375%; bottom: 0%; width: 0.1220703125%; height: 1000%;"><div class="column f z-10 svelte-hvuhv1"></div>
+	
+</div>
+
+      <div class="pancake-grid"><div class="pancake-grid-item svelte-1urdg19" style="width: 0; height: 100%; left: 0%"><span class="x label svelte-hvuhv1">0</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 0; height: 100%; left: 24.4140625%"><span class="x label svelte-hvuhv1">1000</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 0; height: 100%; left: 48.828125%"><span class="x label svelte-hvuhv1">2000</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 0; height: 100%; left: 73.2421875%"><span class="x label svelte-hvuhv1">3000</span>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 0; height: 100%; left: 97.65625%"><span class="x label svelte-hvuhv1">4000</span>
+		</div>
+</div>
+</div></div>
+</div></div>
+  </div>
 
 
 </div></main>
     <div class="drawer drawer-side"><label for="main-menu" class="drawer-overlay"></label>
-  <aside class="sidebar flex flex-col overflow-y-auto bg-base-100 svelte-ce0834"><div class="hidden lg:block sticky inset-x-0 top-0 z-40 w-full py-1 transition duration-200 ease-in-out ring-1 ring-gray-900 ring-opacity-5 shadow-sm bg-white"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex items-center flex-none"><span aria-label="Homepage" class="px-2 flex-0 md:px-4 "><div class="inline-block text-3xl"><span class="normal-case font-light">PySeq</span><span class="grad font-medium svelte-11n8j87"> 2501</span></div></span></div>
+  <aside class="sidebar flex flex-col overflow-y-auto bg-base-100 svelte-m4u7qi"><div class="hidden lg:block sticky inset-x-0 top-0 z-40 w-full py-1 transition duration-200 ease-in-out ring-1 ring-gray-900 ring-opacity-5 shadow-sm bg-white"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex items-center flex-none"><span aria-label="Homepage" class="px-2 flex-0 md:px-4 "><div class="inline-block text-3xl"><span class="normal-case font-light">PySeq</span><span class="grad font-medium svelte-11n8j87"> 2501</span></div></span></div>
   <a href="https://github.com/chaichontat/pyseq2501/" target="_blank" rel="nofollow" class="font-mono text-xs opacity-50"><div data-tip="Changelog" class="tooltip tooltip-bottom"><span class="hidden lg:inline">version</span> 0.0.1
     </div></a>
 </div></div>
-    <div class="relative">
+
+    <div class="tabs w-full mt-2"><a class="tab tab-lg tab-lifted tab-active">Imaging</a>
+      <a class="tab tab-lg tab-lifted">Fluidics</a>
+      <a class="tab tab-lg tab-lifted">Misc.</a>
+      <div class="flex-1 cursor-default tab tab-lifted"></div></div>
+
+    <section class="relative">
       <ol class="menu p-2 "><li class="mb-6"><span class="font-bold opacity-60">Map</span>
   <div class="pl-4 pr-2"><li>
-  <span class="monomedium justify-center align-middle mb-4 -translate-y-8 svelte-1icsz3r"><div class="text-base">A</div>
-    <input type="checkbox" class="toggle toggle-md toggl-dark self-center mx-1 svelte-1icsz3r">
+  <span class="monomedium justify-center align-middle mb-4 -translate-y-8 svelte-1ueaw7n"><div class="text-base">A</div>
+    <input type="checkbox" class="toggle toggle-md toggl-dark self-center mx-1 svelte-1ueaw7n">
     <div class="text-base">B</div></span>
   
   <div class="-mt-8"></div>
@@ -112,33 +242,33 @@
 
   
 
-<div class="bg-light-200 self-center slide border border-gray-400 shadow flex relative justify-center box-border svelte-9russs"><div class="box-border absolute w-full text-sm svelte-1elcysn" style="transform: translateX(-4.25px); width: calc(100% + 1px);"><div class="cm svelte-1elcysn" style="width: 40%; left:0%;"><div class="translate-x-1 svelte-1elcysn">0</div>
-      <div class="svelte-1elcysn"><div class="mm  svelte-1elcysn" style="width: 10%; left:0%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:10%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:20%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:30%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:40%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:50%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:60%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:70%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:80%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:90%;"></div></div>
-    </div><div class="cm svelte-1elcysn" style="width: 40%; left:40%;"><div class="translate-x-1 svelte-1elcysn">1</div>
-      <div class="svelte-1elcysn"><div class="mm  svelte-1elcysn" style="width: 10%; left:0%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:10%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:20%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:30%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:40%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:50%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:60%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:70%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:80%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:90%;"></div></div>
+<div class="bg-light-200 self-center slide border border-gray-400 shadow flex relative justify-center box-border svelte-2ovbmo"><div class="box-border absolute w-full text-sm svelte-1ngkis8" style="transform: translateX(-4.25px); width: calc(100% + 1px);"><div class="cm svelte-1ngkis8" style="width: 40%; left:0%;"><div class="translate-x-1 svelte-1ngkis8">0</div>
+      <div class="svelte-1ngkis8"><div class="mm  svelte-1ngkis8" style="width: 10%; left:0%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:10%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:20%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:30%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:40%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:50%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:60%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:70%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:80%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:90%;"></div></div>
+    </div><div class="cm svelte-1ngkis8" style="width: 40%; left:40%;"><div class="translate-x-1 svelte-1ngkis8">1</div>
+      <div class="svelte-1ngkis8"><div class="mm  svelte-1ngkis8" style="width: 10%; left:0%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:10%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:20%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:30%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:40%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:50%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:60%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:70%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:80%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:90%;"></div></div>
     </div>
 
-  <div class="cm svelte-1elcysn" style="width: 40%; left:80%;"><div class="translate-x-1 svelte-1elcysn">2</div>
-    <div class="svelte-1elcysn"><div class="mm  svelte-1elcysn" style="width: 10%; left:0%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:10%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:20%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:30%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:40%;"></div><div class="mm  svelte-1elcysn" style="width: 10%; left:50%;"></div></div></div>
+  <div class="cm svelte-1ngkis8" style="width: 40%; left:80%;"><div class="translate-x-1 svelte-1ngkis8">2</div>
+    <div class="svelte-1ngkis8"><div class="mm  svelte-1ngkis8" style="width: 10%; left:0%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:10%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:20%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:30%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:40%;"></div><div class="mm  svelte-1ngkis8" style="width: 10%; left:50%;"></div></div></div>
 </div>
-  <div class="box-border absolute left-full text-sm svelte-1t3bdud" style="transform: translateY(-1px); height: calc(100% + 1px);"><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:0%;"><div class="text svelte-1t3bdud">0</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
-    </div><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:13.333333333333334%;"><div class="text svelte-1t3bdud">1</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
-    </div><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:26.666666666666668%;"><div class="text svelte-1t3bdud">2</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
-    </div><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:40%;"><div class="text svelte-1t3bdud">3</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
-    </div><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:53.333333333333336%;"><div class="text svelte-1t3bdud">4</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
-    </div><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:66.66666666666667%;"><div class="text svelte-1t3bdud">5</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
-    </div><div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:80%;"><div class="text svelte-1t3bdud">6</div>
-      <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:60%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:70%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:80%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:90%;"></div></div>
+  <div class="box-border absolute left-full text-sm svelte-1tynq01" style="transform: translateY(-1px); height: calc(100% + 1px);"><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:0%;"><div class="text svelte-1tynq01">0</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
+    </div><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:13.333333333333334%;"><div class="text svelte-1tynq01">1</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
+    </div><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:26.666666666666668%;"><div class="text svelte-1tynq01">2</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
+    </div><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:40%;"><div class="text svelte-1tynq01">3</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
+    </div><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:53.333333333333336%;"><div class="text svelte-1tynq01">4</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
+    </div><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:66.66666666666667%;"><div class="text svelte-1tynq01">5</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
+    </div><div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:80%;"><div class="text svelte-1tynq01">6</div>
+      <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:60%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:70%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:80%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:90%;"></div></div>
     </div>
 
-  <div class="cm svelte-1t3bdud" style="height: 13.333333333333334%; top:93.33333333333333%;"><div class="text svelte-1t3bdud">7</div>
-    <div class="svelte-1t3bdud"><div class="mm  svelte-1t3bdud" style="height: 10%; top:0%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:10%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:20%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:30%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:40%;"></div><div class="mm  svelte-1t3bdud" style="height: 10%; top:50%;"></div></div></div>
+  <div class="cm svelte-1tynq01" style="height: 13.333333333333334%; top:93.33333333333333%;"><div class="text svelte-1tynq01">7</div>
+    <div class="svelte-1tynq01"><div class="mm  svelte-1tynq01" style="height: 10%; top:0%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:10%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:20%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:30%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:40%;"></div><div class="mm  svelte-1tynq01" style="height: 10%; top:50%;"></div></div></div>
 </div>
   <div id="cross" class="absolute z-40 text-2xl text-blue-700 transition-all" style="top:calc(2.3999866666666665% - 1.2rem); left:calc(-71.6015625% - 0.5rem);">×</div>
 
@@ -152,30 +282,30 @@
 
 
 
-  <div id="shade" class="absolute z-20 transition-all svelte-134l18c" style="bottom:calc(100%; left:calc(0%); height:0.512%; width:3.072%;"></div>
-  <div class="dot left top-8 svelte-12uprtv"><div>Tilt 3<div class="absolute right-8 leading-6 font-mono font-medium svelte-e9wu2w">-1</div></div>
+  <div id="shade" class="absolute z-20 transition-all svelte-134l18c" style="bottom:calc(100%; left:calc(0%); height:1.024%; width:3.072%;"></div>
+  <div class="dot left top-8 svelte-12uprtv"><div>Tilt 3<div class="absolute right-8 leading-6 font-mono font-medium svelte-1jvbb2g">-1</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div>
 
-<span class="dot left svelte-12uprtv" style="top: 19rem;"><div>Tilt 2<div class="absolute right-8 leading-6 font-mono font-medium svelte-e9wu2w">-1</div></div>
+<span class="dot left svelte-12uprtv" style="top: 19rem;"><div>Tilt 2<div class="absolute right-8 leading-6 font-mono font-medium svelte-1jvbb2g">-1</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></span>
 
 <span class="dot right svelte-12uprtv"><button class="mr-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button>
   <div>Tilt 1
-    <div class="absolute left-6 leading-6 font-mono font-medium svelte-e9wu2w">-1</div></div>
+    <div class="absolute left-6 leading-6 font-mono font-medium svelte-1jvbb2g">-1</div></div>
 </span>
 
-  <span class="name svelte-9russs">A</span>
+  <span class="name svelte-2ovbmo">A</span>
 
   
-  <div class="label-line svelte-9russs"></div>
+  <div class="label-line svelte-2ovbmo"></div>
 </div>
 
   
   <section class="flex flex-grow space-x-8 self-center mt-4"><div class="flex self-center"><div class="flex flex-col"><span class="w-24 text-center font-medium">All Tilt</span>
-    <div class="leading-6 font-mono font-medium text-center svelte-e9wu2w">-1 ± 0</div></div>
+    <div class="leading-6 font-mono font-medium text-center svelte-1jvbb2g">-1 ± 0</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div>
     <div class="flex self-center"><div class="flex flex-col"><span class="w-24 text-center font-medium">Objective Z</span>
-    <div class="leading-6 font-mono font-medium text-center svelte-e9wu2w">-1</div></div>
+    <div class="leading-6 font-mono font-medium text-center svelte-1jvbb2g">-1</div></div>
   <button class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-gray-700 hover:fill-blue-800 transition-colors" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div></section>
 
   
@@ -204,22 +334,25 @@
         <th class="rounded-l-lg text-center text-sm svelte-18yfiso">Target</th>
         <th class="rounded-r-lg text-center text-sm svelte-18yfiso">Actual</th>
         <th style="background:transparent" class="svelte-18yfiso"></th></tr></thead>
-    <tbody><tr style="--this-color: #84cc16"><th class="svelte-1g5cwvo"><svg class="h-4 w-4 inline-block -translate-y-0.5" viewBox="0 0 20 20" fill="#84cc16"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
+    <tbody><tr style="--this-color: #84cc16"><th class="svelte-1g2fu3c"><svg class="h-4 w-4 inline-block -translate-y-0.5" viewBox="0 0 20 20" fill="#84cc16"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
     532 nm</th>
 
-  <td class="svelte-1g5cwvo"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g5cwvo" style="margin: 0 auto;" value="5"></td>
-  <td class="text-center font-bold font-mono svelte-1g5cwvo">-1</td>
-  <td class="text-right svelte-1g5cwvo">mW</td>
+  <td class="svelte-1g2fu3c"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g2fu3c" style="margin: 0 auto;" value="5"></td>
+  <td class="text-center font-bold font-mono svelte-1g2fu3c">-1</td>
+  <td class="text-right svelte-1g2fu3c">mW</td>
 </tr>
-      <tr style="--this-color: #ef4444"><th class="svelte-1g5cwvo"><svg class="h-4 w-4 inline-block -translate-y-0.5" viewBox="0 0 20 20" fill="#ef4444"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
-    633 nm</th>
+      <tr style="--this-color: #ef4444"><th class="svelte-1g2fu3c"><svg class="h-4 w-4 inline-block -translate-y-0.5" viewBox="0 0 20 20" fill="#ef4444"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
+    660 nm</th>
 
-  <td class="svelte-1g5cwvo"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g5cwvo" style="margin: 0 auto;" value="5"></td>
-  <td class="text-center font-bold font-mono svelte-1g5cwvo">-1</td>
-  <td class="text-right svelte-1g5cwvo">mW</td>
+  <td class="svelte-1g2fu3c"><input type="number" min="0" max="1000" step="1" class="font-medium text-base input input-bordered w-10/12 h-8 block svelte-1g2fu3c" style="margin: 0 auto;" value="5"></td>
+  <td class="text-center font-bold font-mono svelte-1g2fu3c">-1</td>
+  <td class="text-right svelte-1g2fu3c">mW</td>
 </tr></tbody></table>
 </li>
-          <li><span class="self-center mt-2 text-lg">Shutter:  <p class="font-mono font-bold">CLOSED</p></span></li></div></li></ol></div></aside>
+          <li><span class="self-center mt-2 text-lg">Shutter:  <p class="font-mono font-bold">CLOSED</p></span></li></div></li></ol></section>
+
+    <section class="relative hidden"><ol class="menu p-2 "><li class="mb-6"><span class="font-bold opacity-60">Prime</span>
+  <div class="pl-4 pr-2">Drop selection port volume speed up down</div></li></ol></section></aside>
 </div></div></div>
 
 </div>
