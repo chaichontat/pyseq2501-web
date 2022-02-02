@@ -4,36 +4,35 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
+		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-af6101b5.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-ca0b4fcc.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-49d07c5b.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-2c8cd3e7.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-8a9c3ff5.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-57f4540f.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-f30a8796.js">
-			<script type="module">
-				import { start } from "/pyseq2501-web/internal/start-49d07c5b.js";
-				start({
-					target: document.querySelector("#svelte"),
-					paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
-					session: {},
-					route: true,
-					spa: false,
-					trailing_slash: "never",
-					hydrate: {
-						status: 200,
-						error: null,
-						nodes: [
-							import("/pyseq2501-web/internal/pages/__layout.svelte-8a9c3ff5.js"),
-						import("/pyseq2501-web/internal/pages/main.svelte-57f4540f.js")
-						],
-						url: new URL("http://sveltekit-prerender/pyseq2501-web/main"),
-						params: {}
-					}
-				});
-			</script>
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-22652847.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-49b8c816.css">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-7952ba84.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-eb0b149d.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-2b247471.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-9591fa6b.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-b0f835ae.js"><script type="module">
+		import { start } from "/pyseq2501-web/internal/start-7952ba84.js";
+		start({
+			target: document.querySelector("#svelte"),
+			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/pyseq2501-web/internal/pages/__layout.svelte-2b247471.js"),
+						import("/pyseq2501-web/internal/pages/main.svelte-9591fa6b.js")
+				],
+				url: new URL("http://sveltekit-prerender/pyseq2501-web/main"),
+				params: {}
+			}
+		});
+	</script>
 	</head>
 	<body>
 		<div id="svelte">
@@ -44,7 +43,9 @@
 
 
 
-<span class="flex flex-row gap-x-3 w-full"><content class="grid grid-row-2 gap-y-2 w-32"><button class="_btn btn--primary svelte-10uwj7s">Start</button>
+<span class="flex flex-row gap-x-3 w-full"><content class="grid grid-row-2 gap-y-2 w-32"><button type="button" class="text-lg mt-2 transition-colors shadow-md shadow-blue-500/50 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-4 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="-ml-2 mr-1 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+      Start
+    </button>
     <button class="_btn btn--secondary svelte-10uwj7s">Autofocus</button></content>
 
   <div class="border stats border-base-300 flex-grow"><div class="stat"><div class="stat-figure text-primary"><button class="btn loading btn-circle btn-lg bg-base-200 btn-ghost"></button></div>
@@ -54,107 +55,285 @@
         <div class="flex flex-col ml-4 opacity-75"><span>Height 0.768 mm</span>
           <span>Total time: 0.384 s</span></div>
         <div class="flex flex-col ml-4"><button class="btn btn-sm btn--secondary svelte-10uwj7s">Take Dark</button>
-          <span>Dark Corrected<input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div>
-        <span>Show Histogram<input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div>
+          <span>Dark Corrected
+            <input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div>
+        <span>Show Histogram
+          <input type="checkbox" class="toggle toggle-sm ml-4 mt-2"></span></div>
 
       <div class="stat-title">Bundles taken</div>
       <div class="stat-desc"><progress value="16" max="16" class="progress progress-secondary transition-all"></progress></div></div></div>
 </span>
 
-<div class="my-8"><p class="text-gray-600 font-bold text-2xl pb-3 border-b">Steps</p>
-  <ul class="divide-y divide-gray-500"><li class="relative flex py-6 border-b border-gray-50"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+<div class="my-8 w-full"><p class="text-gray-600 font-bold text-2xl pb-3 border-b">Details</p>
+  <div class="grid grid-cols-4 font-medium mt-2 text-lg"><div>Name <input type="text" class="pretty"></div>
+    <div>Path <input type="text" class="pretty"></div></div>
 
-  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-50 text-lg font-bold rounded-full">1</span></div>
+  <p class="text-gray-600 font-bold text-2xl mt-6 mb-1">Reagents</p>
+<div class="overflow-x-auto sm:-mx-6 lg:-mx-8"><div class="py-2 inline-block min-w-full sm:px-6 lg:px-8"><div class="overflow-hidden"><table class="min-w-full"><thead class="bg-white border-y border-gray-400"><tr><th scope="col" class="font-medium text-gray-900 px-6 py-2">Port #</th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2">Name</th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Prime pull speed (μl/min)</th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Aspiration speed (μl/min)</th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Push speed (μl/min)</th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Hold time (s)</th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2"></th>
+            <th scope="col" class="font-medium text-gray-900 px-6 py-2"></th></tr></thead>
 
-  <div>
-<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Wash</b>
+        <tbody><tr class="bg-white border-b border-gray-300 transition ease-in-out hover:bg-gray-50"><td class="text-gray-900 py-2 px-6 whitespace-nowrap font-bold "><input type="number" class="pretty w-16" min="1" max="19" required value="1"></td>
+  <td class="text-gray-900 px-4 whitespace-nowrap"><input type="text" class="pretty w-full" min="1" max="2000" required value=""></td>
+  <td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" max="2000" required value="200"></td>
+  <td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" max="2000" required value="100"></td>
+  <td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" max="2000" required value="2000"></td>
+  <td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" required value="26"></td>
+  <td><button type="button" class="transition-colors shadow focus:ring-4 font-medium rounded-lg px-4 py-2.5 text-center inline-flex items-center mr-2 text-sm svelte-cjosfq  green"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+      Prime
+    </button></td>
+  <td><svg xmlns="http://www.w3.org/2000/svg" class="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" class="s-TGrNU-FH6_7v"></path></svg></td>
+</tr>
+          <tr><td colspan="8" class="transition-all ease-in-out whitespace-nowrap h-12 border-b mx-0 px-0 py-0 font-medium white-clickable hover:font-semibold hover:bg-gray-50 "><span class="inline-flex justify-center w-full cursor-pointer align-middle"><svg stroke-width="1.5" class="-ml-2 mr-1 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                Add Reagent
+              </span></td></tr></tbody></table></div></div></div>
+
+<button type="button" class="mt-2 transition-colors shadow-lg shadow-blue-500/50 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-4 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="-ml-2 mr-1 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+  Add Reagent
+</button>
+
+  <p class="text-gray-600 font-bold text-2xl py-3 border-b mt-6">Steps</p>
+  <ul><li class="relative flex py-4 pl-2 border-y border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all ease-in-out hover:shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+
+  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-100 text-lg font-bold rounded-full">1</span></div>
+
+  <div class="w-full mr-8">
+<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Image</b>
 
       
       <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
 
   
-  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1py0wu opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1py0wu">
-      <div href="#" class="svelte-1py0wu">Hold</div></section>
-    <section class="svelte-1py0wu">
-      <div class="svelte-1py0wu">Wash</div>
-      <div class="svelte-1py0wu">Prime</div>
-      <div class="svelte-1py0wu">Change Temperature</div></section>
-    <section class="svelte-1py0wu"><div class="svelte-1py0wu">Image</div>
-      <div class="svelte-1py0wu">Move Stage</div></section></div>
+  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1djo23z opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1djo23z">
+      <div class="svelte-1djo23z">Hold</div>
+      </section>
+    <section class="svelte-1djo23z"><div class="svelte-1djo23z">Wash</div>
+      <div class="svelte-1djo23z">Prime</div>
+      <div class="svelte-1djo23z">Change Temperature</div></section>
+    <section class="svelte-1djo23z"><div class="svelte-1djo23z">Image</div>
+      <div class="svelte-1djo23z">Move Stage</div></section></div>
 </div>
 
-    <div class="clump grid grid-cols-3 divide-x font-medium svelte-1mmvv7w"><span class="svelte-1mmvv7w">Reagent <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="250"> μl/min
-        </span>
-        <span class="svelte-1mmvv7w">Volume <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="2000"> μl
-        </span></div>
+    <div class="clump mt-2 grid gap-x-4 grid-cols-4 divide-x font-medium svelte-v6zyli">
+      <span class="svelte-v6zyli">Z <input type="number" class="mx-2 pretty w-24" placeholder="2000"></span>
+        <span class="svelte-v6zyli">Autofocus <input type="checkbox" class="ml-2 rounded"></span>
 
-    
-    <p class="text-lg"></p></div>
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2 gap-x-8">Lower right</p>
+          <div class="flex gap-4"><span>X <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <span>Y <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button></div></div>
+
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2">Upper left</p>
+          <div class="flex gap-4"><span>X <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <span>Y <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button></div></div>
+
+        
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2">Channel(s)</p>
+          <div class="grid grid-cols-3"><div id="green"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-lime-500 focus:ring-lime-300">
+                532 nm laser
+                <input type="number" class="mr-1 pretty w-20 h-8" placeholder="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-green-500 focus:ring-green-300">
+                  Channel 0
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-orange-600 focus:ring-orange-300">
+                  Channel 1
+                </li></ol></div>
+            <div id="red"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-red-600 focus:ring-red-300">
+                660 nm laser
+                <input type="number" class="mr-1 pretty w-20 h-8" placeholder="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500">
+                  Channel 2
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-amber-900 focus:ring-amber-700">
+                  Channel 3
+                </li></ol></div></div></div></div></div>
 </li>
-    <li class="relative flex py-6 border-b border-gray-50"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    <li class="relative flex py-4 pl-2 border-y border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all ease-in-out hover:shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 
-  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-50 text-lg font-bold rounded-full">2</span></div>
+  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-100 text-lg font-bold rounded-full">2</span></div>
 
-  <div>
-<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Wash</b>
+  <div class="w-full mr-8">
+<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Image</b>
 
       
       <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
 
   
-  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1py0wu opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1py0wu">
-      <div href="#" class="svelte-1py0wu">Hold</div></section>
-    <section class="svelte-1py0wu">
-      <div class="svelte-1py0wu">Wash</div>
-      <div class="svelte-1py0wu">Prime</div>
-      <div class="svelte-1py0wu">Change Temperature</div></section>
-    <section class="svelte-1py0wu"><div class="svelte-1py0wu">Image</div>
-      <div class="svelte-1py0wu">Move Stage</div></section></div>
+  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1djo23z opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1djo23z">
+      <div class="svelte-1djo23z">Hold</div>
+      </section>
+    <section class="svelte-1djo23z"><div class="svelte-1djo23z">Wash</div>
+      <div class="svelte-1djo23z">Prime</div>
+      <div class="svelte-1djo23z">Change Temperature</div></section>
+    <section class="svelte-1djo23z"><div class="svelte-1djo23z">Image</div>
+      <div class="svelte-1djo23z">Move Stage</div></section></div>
 </div>
 
-    <div class="clump grid grid-cols-3 divide-x font-medium svelte-1mmvv7w"><span class="svelte-1mmvv7w">Reagent <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="250"> μl/min
-        </span>
-        <span class="svelte-1mmvv7w">Volume <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="2000"> μl
-        </span></div>
+    <div class="clump mt-2 grid gap-x-4 grid-cols-4 divide-x font-medium svelte-v6zyli">
+      <span class="svelte-v6zyli">Z <input type="number" class="mx-2 pretty w-24" placeholder="2000"></span>
+        <span class="svelte-v6zyli">Autofocus <input type="checkbox" class="ml-2 rounded"></span>
 
-    
-    <p class="text-lg"></p></div>
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2 gap-x-8">Lower right</p>
+          <div class="flex gap-4"><span>X <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <span>Y <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button></div></div>
+
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2">Upper left</p>
+          <div class="flex gap-4"><span>X <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <span>Y <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button></div></div>
+
+        
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2">Channel(s)</p>
+          <div class="grid grid-cols-3"><div id="green"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-lime-500 focus:ring-lime-300">
+                532 nm laser
+                <input type="number" class="mr-1 pretty w-20 h-8" placeholder="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-green-500 focus:ring-green-300">
+                  Channel 0
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-orange-600 focus:ring-orange-300">
+                  Channel 1
+                </li></ol></div>
+            <div id="red"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-red-600 focus:ring-red-300">
+                660 nm laser
+                <input type="number" class="mr-1 pretty w-20 h-8" placeholder="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500">
+                  Channel 2
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-amber-900 focus:ring-amber-700">
+                  Channel 3
+                </li></ol></div></div></div></div></div>
 </li>
-    <li class="relative flex py-6 border-b border-gray-50"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    <li class="relative flex py-4 pl-2 border-y border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all ease-in-out hover:shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 
-  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-50 text-lg font-bold rounded-full">3</span></div>
+  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-100 text-lg font-bold rounded-full">3</span></div>
 
-  <div>
-<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Wash</b>
+  <div class="w-full mr-8">
+<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Image</b>
 
       
       <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
 
   
-  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1py0wu opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1py0wu">
-      <div href="#" class="svelte-1py0wu">Hold</div></section>
-    <section class="svelte-1py0wu">
-      <div class="svelte-1py0wu">Wash</div>
-      <div class="svelte-1py0wu">Prime</div>
-      <div class="svelte-1py0wu">Change Temperature</div></section>
-    <section class="svelte-1py0wu"><div class="svelte-1py0wu">Image</div>
-      <div class="svelte-1py0wu">Move Stage</div></section></div>
+  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1djo23z opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1djo23z">
+      <div class="svelte-1djo23z">Hold</div>
+      </section>
+    <section class="svelte-1djo23z"><div class="svelte-1djo23z">Wash</div>
+      <div class="svelte-1djo23z">Prime</div>
+      <div class="svelte-1djo23z">Change Temperature</div></section>
+    <section class="svelte-1djo23z"><div class="svelte-1djo23z">Image</div>
+      <div class="svelte-1djo23z">Move Stage</div></section></div>
 </div>
 
-    <div class="clump grid grid-cols-3 divide-x font-medium svelte-1mmvv7w"><span class="svelte-1mmvv7w">Reagent <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="250"> μl/min
-        </span>
-        <span class="svelte-1mmvv7w">Volume <input type="number" class="mx-2 form w-24 svelte-1mmvv7w" placeholder="2000"> μl
-        </span></div>
+    <div class="clump mt-2 grid gap-x-4 grid-cols-4 divide-x font-medium svelte-v6zyli">
+      <span class="svelte-v6zyli">Z <input type="number" class="mx-2 pretty w-24" placeholder="2000"></span>
+        <span class="svelte-v6zyli">Autofocus <input type="checkbox" class="ml-2 rounded"></span>
 
-    
-    <p class="text-lg"></p></div>
-</li></ul>
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2 gap-x-8">Lower right</p>
+          <div class="flex gap-4"><span>X <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <span>Y <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button></div></div>
 
-  <button type="button" class="transition-colors shadow-lg shadow-blue-500/50 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="-ml-2 mr-1 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-    Add Step
-  </button></div>
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2">Upper left</p>
+          <div class="flex gap-4"><span>X <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <span>Y <input type="number" class="pretty w-24 text-right" placeholder="2000">
+    mm
+  </span>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button>
+  <button type="button" class="white-button px-4 py-1 text-sm font-medium text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button></div></div>
 
-<div class="mt-4 center shadow border border-gray-400 relative" style="height:75vh;"><canvas id="canvas" width="2048" height="2048" style="border:2px solid #000000; background-color: gray;"></canvas>
+        
+        <div class="col-span-4 mt-4 ml-2 pl-4"><p class="text-lg mb-2">Channel(s)</p>
+          <div class="grid grid-cols-3"><div id="green"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-lime-500 focus:ring-lime-300">
+                532 nm laser
+                <input type="number" class="mr-1 pretty w-20 h-8" placeholder="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-green-500 focus:ring-green-300">
+                  Channel 0
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-orange-600 focus:ring-orange-300">
+                  Channel 1
+                </li></ol></div>
+            <div id="red"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-red-600 focus:ring-red-300">
+                660 nm laser
+                <input type="number" class="mr-1 pretty w-20 h-8" placeholder="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500">
+                  Channel 2
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-amber-900 focus:ring-amber-700">
+                  Channel 3
+                </li></ol></div></div></div></div></div>
+</li>
+
+    <li id="add" class="text-lg transition-all border-y border-gray-400 hover:border-blue-500 inline-flex items-center justify-center cursor-pointer w-full h-16 font-medium hover:font-semibold white-clickable hover:bg-gray-50 svelte-lzfh4f"><span class="inline-flex"><svg id="inner" stroke-width="1.5" class="-ml-2 mr-1 w-6 h-6 transition-all my-0.5 svelte-lzfh4f" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+        Add Step
+      </span></li></ul>
+</div>
+
+<p class="text-gray-600 font-bold text-2xl mt-6 mb-1">Preview</p>
+<div class="mt-4 center shadow border border-gray-300 relative rounded-md" style="height:75vh;"><canvas id="canvas" width="2048" height="2048" style="background-color: gray;"></canvas>
   <div id="histogram" class="z-40 absolute bottom-8 right-8 shadow-lg rounded" style="width:400px; height:300px; background-color:white;"><div class="chart svelte-hvuhv1"><div class="foreground svelte-hvuhv1"><div class="pancake-chart svelte-1togmj7"><div class="pancake-grid"><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 100%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">0</span>
 		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 80%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
