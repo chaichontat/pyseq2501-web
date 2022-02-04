@@ -6,14 +6,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-e20a2496.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-651d1b11.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-9c802b4f.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-feccb870.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-36932eb8.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-75c3cb2a.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-8d3950c9.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-abb1f3ca.js"><script type="module">
-		import { start } from "/pyseq2501-web/internal/start-feccb870.js";
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-bf3b1598.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-64680ed2.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-618c7ce3.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-37aa8762.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-e16d9f55.js"><script type="module">
+		import { start } from "/pyseq2501-web/internal/start-bf3b1598.js";
 		start({
 			target: document.querySelector("#svelte"),
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
@@ -25,8 +25,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/pyseq2501-web/internal/pages/__layout.svelte-75c3cb2a.js"),
-						import("/pyseq2501-web/internal/pages/main.svelte-8d3950c9.js")
+					import("/pyseq2501-web/internal/pages/__layout.svelte-618c7ce3.js"),
+						import("/pyseq2501-web/internal/pages/main.svelte-37aa8762.js")
 				],
 				url: new URL("http://sveltekit-prerender/pyseq2501-web/main"),
 				params: {}
@@ -42,60 +42,74 @@
 
 
 
+<div class=""><span class="flex flex-row w-full gap-x-3"><content class="w-32 grid grid-row-2 gap-y-2"><button type="button" class="text-lg transition-colors shadow-md shadow-blue-500/50 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg px-4 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Start
+    </button>
+    <button type="button" class="text-lg transition-colors shadow-md shadow-blue-500/50 text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-semibold rounded-lg px-4 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Validate
+    </button></content>
 
-<div>
+  <div class="flex-grow border shadow-sm stats border-base-300"><div class="stat"><div class="stat-figure text-primary"><button class="btn loading btn-circle btn-lg bg-base-200 btn-ghost"></button></div>
+      <div class="flex"><span class="stat-value"><span class="font-mono">  --</span>
+          /
+          <span class="px-2 text-right stat-value w-36">1</span></span>
+        <div class="flex flex-col ml-4 opacity-80"><span>Height 0.768 mm</span>
+          <span>Total time: 0.384 s</span></div></div>
 
-    <p class="text-gray-600 font-bold text-2xl pb-3 border-b">Details</p>
-    <div class="grid grid-cols-4 font-medium mt-2 text-lg"><div>Name <input type="text" class="pretty" value=""></div>
+      <div class="stat-title">Steps done</div>
+      <div class="stat-desc"><progress value="0" max="1" class="transition-all progress progress-secondary"></progress></div></div></div>
+</span>
+
+    <p class="pb-3 mt-8 text-2xl font-bold text-gray-600 border-b">Details</p>
+    <div class="mt-2 text-lg font-medium grid grid-cols-4"><div>Name <input type="text" class="pretty" value=""></div>
   <div>Path <input type="text" class="pretty" value=""></div></div>
-    <p class="text-gray-600 font-bold text-2xl mt-6 mb-1">Reagents</p>
-<div class="overflow-x-auto sm:-mx-6 lg:-mx-8"><div class="py-2 inline-block min-w-full sm:px-6 lg:px-8"><div class="overflow-hidden"><table class="min-w-full"><thead class="bg-white border-y border-gray-400"><tr><th scope="col" class="font-medium text-gray-900 px-6 py-2">Port #</th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2">Name</th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Prime pull speed (μl/min)</th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Aspiration speed (μl/min)</th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Push speed (μl/min)</th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2 text-center">Hold time (s)</th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2"></th>
-            <th scope="col" class="font-medium text-gray-900 px-6 py-2"></th></tr></thead>
+    <p class="mt-6 mb-1 text-2xl font-bold text-gray-600">Reagents</p>
+<div class="overflow-x-auto sm:-mx-6 lg:-mx-8"><div class="inline-block min-w-full py-2 sm:px-6 lg:px-8"><div class="overflow-hidden"><table class="min-w-full"><thead class="bg-white border-gray-400 border-y"><tr><th scope="col" class="px-6 py-2 font-medium text-gray-900">Port #</th>
+            <th scope="col" class="px-6 py-2 font-medium text-gray-900">Name</th>
+            <th scope="col" class="px-6 py-2 font-medium text-center text-gray-900">Prime pull speed (μl/min)</th>
+            <th scope="col" class="px-6 py-2 font-medium text-center text-gray-900">Aspiration speed (μl/min)</th>
+            <th scope="col" class="px-6 py-2 font-medium text-center text-gray-900">Push speed (μl/min)</th>
+            <th scope="col" class="px-6 py-2 font-medium text-center text-gray-900">Hold time (s)</th>
+            <th scope="col" class="px-6 py-2 font-medium text-gray-900"></th>
+            <th scope="col" class="px-6 py-2 font-medium text-gray-900"></th></tr></thead>
 
-        <tbody><tr class="bg-white border-b border-gray-300 hover:bg-gray-50"><td class="text-gray-900 py-2 px-6 whitespace-nowrap font-bold "><input type="number" class="pretty w-16" min="1" max="19" required value="1"></td>
-<td class="text-gray-900 px-4 whitespace-nowrap"><input type="text" class="pretty w-full" min="1" max="2000" required value=""></td>
-<td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" max="2000" required value="200"></td>
-<td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" max="2000" required value="100"></td>
-<td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" max="2000" required value="2000"></td>
-<td class="text-gray-900 px-4 whitespace-nowrap"><input type="number" class="pretty w-full" min="1" required value="26"></td>
-<td><button type="button" class="transition-colors shadow focus:ring-4 font-semibold rounded-lg px-4 py-2.5 text-center inline-flex items-center mr-2 text-sm svelte-cjosfq blue"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+        <tbody><tr class="bg-white border-b border-gray-300 hover:bg-gray-50"><td class="px-6 py-2 font-bold text-gray-900 whitespace-nowrap "><input type="number" class="w-16 pretty" min="1" max="19" required value="1"></td>
+<td class="px-4 text-gray-900 whitespace-nowrap"><input type="text" class="w-full pretty" min="1" max="2000" required value=""></td>
+<td class="px-4 text-gray-900 whitespace-nowrap"><input type="number" class="w-full pretty" min="1" max="2000" required value="200"></td>
+<td class="px-4 text-gray-900 whitespace-nowrap"><input type="number" class="w-full pretty" min="1" max="2000" required value="100"></td>
+<td class="px-4 text-gray-900 whitespace-nowrap"><input type="number" class="w-full pretty" min="1" max="2000" required value="2000"></td>
+<td class="px-4 text-gray-900 whitespace-nowrap"><input type="number" class="w-full pretty" min="1" required value="26"></td>
+<td><button type="button" class="transition-colors shadow focus:ring-4 font-semibold rounded-lg px-4 py-2.5 text-center inline-flex items-center mr-2 text-sm svelte-cjosfq blue"><svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
     Prime
   </button></td>
 
-<td><svg xmlns="http://www.w3.org/2000/svg" class="ml-2 w-4 h-4 cursor-pointer" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" class="s-TGrNU-FH6_7v"></path></svg>
+<td><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2 cursor-pointer" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" class="s-TGrNU-FH6_7v"></path></svg>
 </td>
             </tr>
 
           
-          <tr class="cursor-pointer"><td colspan="8" class="transition-all ease-in-out whitespace-nowrap h-12 border-b mx-0 px-0 py-0 font-medium white-clickable hover:font-semibold hover:bg-gray-50 "><span class="inline-flex justify-center w-full cursor-pointer align-middle items-center"><svg stroke-width="1.75" class="-ml-2 mr-0.5 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                  Add Reagent
-                </span></td></tr></tbody></table></div></div></div>
+
+          <tr class="cursor-pointer"><td colspan="8" class="h-12 px-0 py-0 mx-0 font-medium border-b transition-all ease-in-out whitespace-nowrap white-clickable hover:font-semibold hover:bg-gray-50 "><span class="inline-flex items-center justify-center w-full align-middle cursor-pointer"><svg stroke-width="1.75" class="-ml-2 mr-0.5 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                Add Reagent
+              </span></td></tr></tbody></table></div></div></div>
 
 
-    <div class="my-8 w-full"><p class="text-gray-600 font-bold text-2xl py-3 border-b mt-6">Steps</p>
+    <div class="w-full my-8"><p class="py-3 mt-6 text-2xl font-bold text-gray-600 border-b">Steps</p>
 
-  <section><div><li class="relative flex py-4 pl-2 border-y border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all ease-in-out hover:shadow-sm">
-  <svg xmlns="http://www.w3.org/2000/svg" class="absolute h-5 w-5 -mt-1 right-2 cursor-pointer" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+  <section><div><li class="relative flex py-4 pl-2 border-gray-300 transition-all ease-in-out border-y hover:bg-gray-50 hover:border-blue-400 hover:shadow-sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="absolute w-5 h-5 -mt-1 cursor-pointer right-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 
   
-  <div class="mr-8"><span class="flex justify-center items-center w-14 h-14 bg-blue-100 text-lg font-bold rounded-full">
+  <div class="mr-8"><span class="flex items-center justify-center text-lg font-bold bg-blue-100 rounded-full w-14 h-14">
       <div>1</div>
       </span></div>
 
-  <div class="w-full mr-8">
-<div class="relative inline-block text-left"><div><button type="button" class="relative text-lg pl-6 inline-flex w-64 rounded-md border border-gray-300 shadow-sm py-2 bg-white font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Pump</b>
+  <div class="w-full mr-8"><span class="items-center grid grid-cols-3"><div>
+<div class="relative inline-block text-left"><div><button type="button" class="relative inline-flex w-64 py-2 pl-6 text-lg font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Pump</b>
 
       
-      <svg class="absolute mr-2 ml-2 h-5 w-5 right-0 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+      <svg class="absolute right-0 self-center w-5 h-5 ml-2 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
 
   
-  <div class="list transition ease-in scale-95 duration-75 z-10 absolute left-0 mt-2 w-64 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 focus:outline-none svelte-1djo23z opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1djo23z">
+  <div class="absolute left-0 z-10 w-64 mt-2 bg-white shadow-xl transition duration-75 ease-in scale-95 divide-y divide-gray-200 rounded-md list ring-1 ring-black ring-opacity-5 focus:outline-none svelte-1djo23z opacity-0 invisible scale-100" role="menu" id="list" tabindex="-1"><section class="svelte-1djo23z">
       <div class="svelte-1djo23z">Hold</div>
       </section>
     <section class="svelte-1djo23z"><div class="svelte-1djo23z">Pump</div>
@@ -103,12 +117,13 @@
       <div class="svelte-1djo23z">Change Temperature</div></section>
     <section class="svelte-1djo23z"><div class="svelte-1djo23z">Image</div>
       <div class="svelte-1djo23z">Move</div></section></div>
-</div>
+</div></div>
+      <div class="text-lg font-medium text-gray-700">Total time: 60 s</div></span>
 
-    <div class="clump mt-2 grid gap-x-4 grid-cols-4 divide-x font-medium svelte-v6zyli">
+    <div class="mt-2 font-medium grid grid-cols-4 divide-x clump gap-x-4 svelte-v6zyli">
       <span class="svelte-v6zyli">Reagent
-          <select class="drop text-sm w-1/2"><option value="1">1</option><option value="2">2</option><option value="Birthday">Birthday</option><option value="Other">Other</option></select></span>
-        <span class="svelte-v6zyli">Volume <input type="number" class="mx-2 pretty w-24" placeholder="2000" value="0">
+          <select class="text-sm drop"><option value=""></option></select></span>
+        <span class="svelte-v6zyli">Volume <input type="number" class="w-24 mx-2 pretty" placeholder="2000" value="0">
           μl
         </span>
 
@@ -116,34 +131,34 @@
 </li>
       </div></section>
 
-  <div id="add" class="text-lg transition-all border-y border-gray-400 hover:border-blue-500 inline-flex items-center justify-center cursor-pointer w-full h-16 font-medium hover:font-semibold white-clickable hover:bg-gray-50 svelte-lzfh4f"><span class="inline-flex"><svg id="inner" stroke-width="1.5" class="-ml-2 mr-1 w-6 h-6 transition-all my-0.5 svelte-lzfh4f" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+  <div id="add" class="inline-flex items-center justify-center w-full h-16 text-lg font-medium border-gray-400 cursor-pointer transition-all border-y hover:border-blue-500 hover:font-semibold white-clickable hover:bg-gray-50 svelte-lzfh4f"><span class="inline-flex"><svg id="inner" stroke-width="1.5" class="-ml-2 mr-1 w-6 h-6 transition-all my-0.5 svelte-lzfh4f" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
       Add Step
     </span></div>
 </div>
-    <p class="text-gray-600 font-bold text-2xl mt-6 mb-1">Preview</p>
+    <p class="mt-6 mb-1 text-2xl font-bold text-gray-600">Preview</p>
     
-<div class="mt-4 shadow border border-gray-300 relative rounded-md w-11/12 mx-auto" style="height:75vh;"><canvas id="canvas" width="2048" height="2048" style="background-color: gray;"></canvas>
-  <div class="border items-center inline-flex z-40 absolute top-4 right-8 shadow-md rounded-lg bg-white h-10 opacity-90"><span class="mx-4 cursor-pointer font-medium"><input type="checkbox" class="mr-1 rounded text-blue-500 focus:ring-blue-300" checked>
+<div class="relative w-11/12 mx-auto mt-4 border border-gray-300 shadow rounded-md" style="height:75vh;"><canvas id="canvas" width="2048" height="2048" style="background-color: gray;"></canvas>
+  <div class="absolute z-40 inline-flex items-center h-10 bg-white border rounded-lg shadow-md top-4 right-8 opacity-90"><span class="mx-4 font-medium cursor-pointer"><input type="checkbox" class="mr-1 text-blue-500 rounded focus:ring-blue-300" checked>
       Show Histogram
     </span></div>
-  <div id="histogram" class="z-40 absolute bottom-8 right-8 shadow-lg rounded opacity-90 bg-white" style="width:400px; height:300px"><div class="chart svelte-hvuhv1"><div class="foreground svelte-hvuhv1"><div class="pancake-chart svelte-1togmj7"><div class="pancake-grid"><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 100%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+  <div id="histogram" class="absolute z-40 bg-white rounded shadow-lg bottom-8 right-8 opacity-90" style="width:400px; height:300px"><div class="chart svelte-hvuhv1"><div class="foreground svelte-hvuhv1"><div class="pancake-chart svelte-1togmj7"><div class="pancake-grid"><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 100%"><div class="relative left-0 block w-full border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">0</span>
-		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 80%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 80%"><div class="relative left-0 block w-full border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">0.2</span>
-		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 60%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 60%"><div class="relative left-0 block w-full border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">0.4</span>
-		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 40%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 40%"><div class="relative left-0 block w-full border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">0.6</span>
-		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 20%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 20%"><div class="relative left-0 block w-full border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">0.8</span>
-		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 0%"><div class="relative block w-full left-0 border-b border-gray-100"></div>
+		</div><div class="pancake-grid-item svelte-1urdg19" style="width: 100%; height: 0; top: 0%"><div class="relative left-0 block w-full border-b border-gray-100"></div>
         <span class="y label svelte-hvuhv1">1</span>
 		</div>
 </div>
 
-      <div class="pancake-box svelte-1994x9i" style="left: -0.06103515625%; bottom: 0%; width: 0.1220703125%; height: 0%;"><div class="column f z-10 svelte-hvuhv1"></div>
+      <div class="pancake-box svelte-1994x9i" style="left: -0.06103515625%; bottom: 0%; width: 0.1220703125%; height: 0%;"><div class="z-10 column f svelte-hvuhv1"></div>
 	
-</div><div class="pancake-box svelte-1994x9i" style="left: 48.76708984375%; bottom: 0%; width: 0.1220703125%; height: 1000%;"><div class="column f z-10 svelte-hvuhv1"></div>
+</div><div class="pancake-box svelte-1994x9i" style="left: 48.76708984375%; bottom: 0%; width: 0.1220703125%; height: 1000%;"><div class="z-10 column f svelte-hvuhv1"></div>
 	
 </div>
 
@@ -158,7 +173,7 @@
 </div></div></div></div>
 
 
-<div class="flex h-36"><div class="w-2/5 border-t border-gray-400 self-center mx-auto"></div></div>
+<div class="flex h-36"><div class="self-center w-2/5 mx-auto border-t border-gray-400"></div></div>
 
 </div>
 	</body>
