@@ -8,12 +8,12 @@
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-651d1b11.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main.svelte-9c802b4f.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-bf3b1598.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-64680ed2.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-618c7ce3.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-37aa8762.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-e16d9f55.js"><script type="module">
-		import { start } from "/pyseq2501-web/internal/start-bf3b1598.js";
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-b7eb65d3.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-adb194a6.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-c3e6ee67.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main.svelte-d54f4df1.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-595327e2.js"><script type="module">
+		import { start } from "/pyseq2501-web/internal/start-b7eb65d3.js";
 		start({
 			target: document.querySelector("#svelte"),
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
@@ -25,8 +25,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/pyseq2501-web/internal/pages/__layout.svelte-618c7ce3.js"),
-						import("/pyseq2501-web/internal/pages/main.svelte-37aa8762.js")
+					import("/pyseq2501-web/internal/pages/__layout.svelte-c3e6ee67.js"),
+						import("/pyseq2501-web/internal/pages/main.svelte-d54f4df1.js")
 				],
 				url: new URL("http://sveltekit-prerender/pyseq2501-web/main"),
 				params: {}
@@ -103,7 +103,7 @@
       </span></div>
 
   <div class="w-full mr-8"><span class="items-center grid grid-cols-3"><div>
-<div class="relative inline-block text-left"><div><button type="button" class="relative inline-flex w-64 py-2 pl-6 text-lg font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Pump</b>
+<div class="relative inline-block text-left"><div><button type="button" class="relative inline-flex w-64 py-2 pl-6 text-lg font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true"><b>Image</b>
 
       
       <svg class="absolute right-0 self-center w-5 h-5 ml-2 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
@@ -121,13 +121,59 @@
       <div class="text-lg font-medium text-gray-700">Total time: 60 s</div></span>
 
     <div class="mt-2 font-medium grid grid-cols-4 divide-x clump gap-x-4 svelte-v6zyli">
-      <span class="svelte-v6zyli">Reagent
-          <select class="text-sm drop"><option value=""></option></select></span>
-        <span class="svelte-v6zyli">Volume <input type="number" class="w-24 mx-2 pretty" placeholder="2000" value="0">
-          μl
-        </span>
+      <span class="svelte-v6zyli">Z <input type="number" class="w-24 mx-2 pretty" placeholder="2000" value="20000"></span>
+        <span class="svelte-v6zyli">Autofocus <input type="checkbox" class="ml-2 rounded" value="true"></span>
 
-        </div></div>
+        <div class="pl-4 mt-4 ml-2 col-span-4"><p class="mb-2 text-lg gap-x-8">Lower right</p>
+          <div class="flex gap-4"><span>X <input type="number" class="w-24 text-right pretty" placeholder="0" min="0" max="25" value="0">
+    mm
+  </span>
+  <span>Y <input type="number" class="w-24 text-right pretty" placeholder="0" min="0" max="75" value="0">
+    mm
+  </span>
+  <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button>
+  <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button></div></div>
+
+        <div class="pl-4 mt-4 ml-2 col-span-4"><p class="mb-2 text-lg">Upper left</p>
+          <div class="flex gap-4"><span>X <input type="number" class="w-24 text-right pretty" placeholder="0" min="0" max="25" value="0">
+    mm
+  </span>
+  <span>Y <input type="number" class="w-24 text-right pretty" placeholder="0" min="0" max="75" value="0">
+    mm
+  </span>
+  <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+    From Current Position
+  </button>
+  <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+    <span>Go &amp; Preview</span></button></div></div>
+
+        
+        <div class="pl-4 mt-4 ml-2 col-span-4"><p class="mb-2 text-lg">Channel(s)</p>
+          <div class="grid grid-cols-3"><div id="green"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 rounded text-lime-500 focus:ring-lime-300" checked>
+                532 nm laser
+                <input type="number" class="w-20 h-8 mr-1 pretty" placeholder="0" disabled value="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 text-green-500 rounded focus:ring-green-300" checked>
+                  Channel 0
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 text-orange-600 rounded focus:ring-orange-300" checked>
+                  Channel 1
+                </li></ol></div>
+            <div id="red"><span class="mb-1 svelte-v6zyli"><input type="checkbox" class="ml-2 mr-1 text-red-600 rounded focus:ring-red-300" checked>
+                660 nm laser
+                <input type="number" class="w-20 h-8 mr-1 pretty" placeholder="0" disabled value="50">
+                mW
+              </span>
+              <ol><li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500" checked>
+                  Channel 2
+                </li>
+                <li class="channel svelte-v6zyli"><input type="checkbox" class="mr-1 rounded text-amber-900 focus:ring-amber-700" checked>
+                  Channel 3
+                </li></ol></div></div></div></div></div>
 </li>
       </div></section>
 
