@@ -1,109 +1,130 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b7eb65d3.js",
+    "file": "start-5fbbc3bb.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-adb194a6.js"
+      "_vendor-3de1435a.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
+      "_main_auto-6c4a39f2.js",
       "src/routes/sidebar.svelte",
       "src/routes/main.svelte",
       "src/routes/nav.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-c3e6ee67.js",
+    "file": "pages/__layout.svelte-0b52cdc5.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js"
+      "_vendor-3de1435a.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-651d1b11.css"
+      "assets/pages/__layout.svelte-37946eef.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-1b3dc00a.js",
+    "file": "error.svelte-bd842688.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js"
+      "_vendor-3de1435a.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-a862db8b.js",
+    "file": "pages/index.svelte-c598d2b2.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js",
+      "_vendor-3de1435a.js",
       "src/routes/main.svelte",
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
-      "_store-595327e2.js",
-      "_spinning-5a8fb280.js"
+      "_main_auto-6c4a39f2.js",
+      "_store-33e52bae.js",
+      "_spinning-fde4ff02.js"
     ]
   },
   "src/routes/main.svelte": {
-    "file": "pages/main.svelte-d54f4df1.js",
+    "file": "pages/main.svelte-61327035.js",
     "src": "src/routes/main.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js",
-      "_store-595327e2.js"
-    ],
-    "css": [
-      "assets/pages/main.svelte-9c802b4f.css"
+      "_vendor-3de1435a.js",
+      "_main_auto-6c4a39f2.js",
+      "_store-33e52bae.js"
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-9afa2fd4.js",
+    "file": "pages/nav.svelte-eb2456a1.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js",
-      "_spinning-5a8fb280.js",
-      "_store-595327e2.js"
+      "_vendor-3de1435a.js",
+      "_spinning-fde4ff02.js",
+      "_store-33e52bae.js"
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-98fc7abb.js",
+    "file": "pages/sidebar.svelte-0934fae1.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js",
-      "_store-595327e2.js",
-      "_spinning-5a8fb280.js"
+      "_vendor-3de1435a.js",
+      "_store-33e52bae.js",
+      "_spinning-fde4ff02.js"
     ],
     "css": [
       "assets/pages/sidebar.svelte-e882ad9d.css"
     ]
   },
-  "_vendor-adb194a6.js": {
-    "file": "chunks/vendor-adb194a6.js",
+  "src/routes/main_auto.svelte": {
+    "file": "pages/main_auto.svelte-6feea429.js",
+    "src": "src/routes/main_auto.svelte",
+    "isEntry": true,
+    "imports": [
+      "_vendor-3de1435a.js",
+      "_store-33e52bae.js",
+      "_main_auto-6c4a39f2.js"
+    ]
+  },
+  "_vendor-3de1435a.js": {
+    "file": "chunks/vendor-3de1435a.js",
     "css": [
       "assets/vendor-5ea1dd6c.css"
     ]
   },
-  "_store-595327e2.js": {
-    "file": "chunks/store-595327e2.js",
+  "_main_auto-6c4a39f2.js": {
+    "file": "chunks/main_auto-6c4a39f2.js",
+    "isDynamicEntry": true,
     "imports": [
-      "_vendor-adb194a6.js"
+      "_vendor-3de1435a.js",
+      "_store-33e52bae.js"
+    ],
+    "css": [
+      "assets/main_auto-4dcde46a.css"
     ]
   },
-  "_spinning-5a8fb280.js": {
-    "file": "chunks/spinning-5a8fb280.js",
+  "_store-33e52bae.js": {
+    "file": "chunks/store-33e52bae.js",
     "imports": [
-      "_vendor-adb194a6.js"
+      "_vendor-3de1435a.js"
+    ]
+  },
+  "_spinning-fde4ff02.js": {
+    "file": "chunks/spinning-fde4ff02.js",
+    "imports": [
+      "_vendor-3de1435a.js"
     ],
     "css": [
       "assets/spinning-9ae13abb.css"
