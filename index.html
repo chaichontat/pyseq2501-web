@@ -2,24 +2,27 @@
 <html lang="en" data-theme="mytheme">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-aa88dacf.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-1ae0f238.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/progress_manual.svelte_svelte_type_style_lang-87171e5c.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-9ae13abb.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-e882ad9d.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/index.svelte-f64508e1.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/main_auto-d3952a4b.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-1bd7b74a.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-ffd40cc1.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-cd350dbe.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-82b3c929.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-95129327.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-d7058b45.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-a36fa8e2.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-cbc6a10c.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/main_auto-36acc906.js">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-517e7f12.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/details-f04e4a98.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_auto.svelte-9f8c8199.css">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-d03b56d2.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-2f45df4e.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-0a6d2a46.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-fdc2425d.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-0ba690e3.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-5f076199.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/utils-0b1d73e0.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-27260e2c.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-7badec0b.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/details-c9c864d5.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_auto.svelte-e24bf28c.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-455d9fb4.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -39,11 +42,10 @@
   <div class="ml-8"></div>
     <span class="mx-4">Idle</span></div>
 
-    <div class="flex-1"></div>
+    <div class="flex-grow"></div>
 
     <span class="mt-1 text-sm font-semibold animate-bounce" style="color:rgb(207, 34, 46);">Not Connected
     <svg role="img" height="16" viewBox="0 0 16 16" version="1.1" fill="rgb(207, 34, 46)" class="pl-1"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg></span>
-    
 
     <div class="tabs"><button class="font-medium transition-colors h-14 tab tab-lg tab-bordered">Manual
       </button>
@@ -51,7 +53,7 @@
       </button></div>
 
     <div title="Github ↗︎" class="items-center flex-none pr-4"><a target="_blank" href="https://github.com/chaichontat/pyseq2501-web" rel="noopener" class="normal-case btn btn-ghost drawer-button btn-square"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="inline-block w-6 h-6 fill-current"><path d="M256,32C132.3,32,32,134.9,32,261.7c0,101.5,64.2,187.5,153.2,217.9a17.56,17.56,0,0,0,3.8.4c8.3,0,11.5-6.1,11.5-11.4,0-5.5-.2-19.9-.3-39.1a102.4,102.4,0,0,1-22.6,2.7c-43.1,0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1,1.4-14.1h.1c22.5,2,34.3,23.8,34.3,23.8,11.2,19.6,26.2,25.1,39.6,25.1a63,63,0,0,0,25.6-6c2-14.8,7.8-24.9,14.2-30.7-49.7-5.8-102-25.5-102-113.5,0-25.1,8.7-45.6,23-61.6-2.3-5.8-10-29.2,2.2-60.8a18.64,18.64,0,0,1,5-.5c8.1,0,26.4,3.1,56.6,24.1a208.21,208.21,0,0,1,112.2,0c30.2-21,48.5-24.1,56.6-24.1a18.64,18.64,0,0,1,5,.5c12.2,31.6,4.5,55,2.2,60.8,14.3,16.1,23,36.6,23,61.6,0,88.2-52.4,107.6-102.3,113.3,8,7.1,15.2,21.1,15.2,42.5,0,30.7-.3,55.5-.3,63,0,5.4,3.1,11.5,11.4,11.5a19.35,19.35,0,0,0,4-.4C415.9,449.2,480,363.1,480,261.7,480,134.9,379.7,32,256,32Z"></path></svg></a></div></div></div>
-      <div class="p-4 lg:px-10"><div>
+      <div class="py-4 px-10"><div>
 <p class="inline-block my-4 text-4xl font-extrabold tracking-tight text-gray-700 dark:text-white">Flowcells</p>
   <div class="flex max-w-screen-lg mt-4 space-x-6"><div class="w-4/12 max-w-md p-6 space-y-3 text-lg bg-white border rounded-lg shadow shadow-blue-300 dark:bg-gray-800 dark:border-gray-700"><div class="flex"><p class="mb-4 text-6xl font-bold text-gray-700">A</p>
     
@@ -81,14 +83,7 @@
   <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700"><div class="bg-blue-600 h-2.5 rounded-full bg-indigo-600" style="width: 45%"></div></div></div></div></div>
 
 
-<div class="flex h-36"><div class="self-center w-2/5 mx-auto border-t border-gray-200"></div></div>
-
-<button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-
-<div id="dropdown" class="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700"><ul class="py-1" aria-labelledby="dropdownButton"><li><a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a></li>
-    <li><a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a></li>
-    <li><a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a></li>
-    <li><a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a></li></ul></div></div></main>
+<div class="flex h-36"><div class="self-center w-2/5 mx-auto border-t border-gray-200"></div></div></div></main>
     <div class="drawer drawer-side"><label for="main-menu" class="drawer-overlay"></label>
   <aside class="flex flex-col overflow-y-auto sidebar bg-base-100 svelte-1qiizvb"><div class="sticky inset-x-0 top-0 z-40 hidden w-full h-16 transition duration-200 ease-in-out bg-white shadow-sm lg:block ring-1 ring-gray-900 ring-opacity-5"><div class="mx-auto space-x-1 navbar max-w-none"><div class="flex items-center flex-none"><span aria-label="Homepage" class="px-2 flex-0 md:px-4 "><div class="inline-block text-3xl"><span class="font-light normal-case">PySeq</span><span class="font-medium grad svelte-11n8j87"> 2501</span></div></span></div>
   <a href="https://github.com/chaichontat/pyseq2501/" target="_blank" rel="nofollow" class="font-mono text-xs opacity-50"><div data-tip="Changelog" class="tooltip tooltip-bottom"><span class="hidden lg:inline">version</span> 0.0.1
@@ -103,14 +98,13 @@
     <section class="relative">
       <ol class="p-2 menu "><li class="mb-6"><span class="font-bold opacity-60">Map</span>
   <div class="pl-4 pr-2"><li>
-  <span class="justify-center mb-4 align-middle -translate-y-8 monomedium svelte-1ueaw7n"><div class="text-base">A</div>
-    <input type="checkbox" class="self-center mx-1 toggle toggle-md toggl-dark svelte-1ueaw7n" >
-    <div class="text-base">B</div></span>
-  
-  <div class="-mt-8"></div>
-
-  
-
+  <span class="flex items-center justify-center mb-4 space-x-2 text-lg -translate-y-6 monomedium svelte-1ueaw7n"><div>A</div>
+    
+<button id="headlessui-switch-1" role="switch" type="button" tabIndex="0" aria-checked="false" class="bg-blue-700
+    relative inline-flex flex-shrink-0 h-[24px] w-[48px] border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75"><span aria-hidden="true" class="translate-x-0 thing pointer-events-none inline-block h-[20px] w-[20px] bg-white shadow transform ring-0 transition ease-in-out duration-200" style="border-radius: 50%;"></span></button>
+    
+    <div>B</div></span>
+  <div class="-mt-4"></div>
   
 
 <div class="relative flex self-center justify-center border border-gray-400 shadow bg-light-200 slide box-border svelte-2ovbmo"><div class="absolute w-full text-sm box-border svelte-1ngkis8" style="transform: translateX(-4.25px); width: calc(100% + 1px);"><div class="cm svelte-1ngkis8" style="width: 40%; left:0%;"><div class="translate-x-1 svelte-1ngkis8">0</div>
@@ -153,7 +147,7 @@
 
 
 
-  <div id="shade" class="absolute z-20 transition-all svelte-134l18c" style="bottom:calc(100%; left:calc(0%); height:1.024%; width:3.072%;"></div>
+  <div id="shade" class="absolute z-20 transition-all svelte-134l18c" style="bottom:calc(100%; left:calc(0%); height:NaN%; width:3.072%;"></div>
   <div class="dot left top-8 svelte-12uprtv"><div>Tilt 3<div class="absolute right-8 leading-6 font-mono font-medium svelte-1jvbb2g">-1</div></div>
   <button class="ml-2 cursor-default"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transition-colors fill-gray-700 fill-gray-300" viewBox="0 0 20 20"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg></button></div>
 
@@ -215,10 +209,10 @@
 </div></div></div>
 
 
-		<script type="module" data-hydrate="1rxrz7y">
-		import { start } from "/pyseq2501-web/internal/start-1bd7b74a.js";
+		<script type="module" data-hydrate="1awn5x4">
+		import { start } from "/pyseq2501-web/internal/start-d03b56d2.js";
 		start({
-			target: document.querySelector('[data-hydrate="1rxrz7y"]').parentNode,
+			target: document.querySelector('[data-hydrate="1awn5x4"]').parentNode,
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
 			session: {},
 			route: true,
@@ -228,8 +222,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/pyseq2501-web/internal/pages/__layout.svelte-cd350dbe.js"),
-						import("/pyseq2501-web/internal/pages/index.svelte-cbc6a10c.js")
+					import("/pyseq2501-web/internal/pages/__layout.svelte-0a6d2a46.js"),
+						import("/pyseq2501-web/internal/pages/index.svelte-7badec0b.js")
 				],
 				url: new URL("http://sveltekit-prerender/pyseq2501-web"),
 				params: {}
