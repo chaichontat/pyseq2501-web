@@ -5,13 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-4b4bd0fd.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-16a577a7.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/logo-2468b24d.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-ceed2d61.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-b0b3812f.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_manual.svelte-38b29d53.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_manual.svelte-6a35f24a.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/preview.svelte_svelte_type_style_lang-4be20e4b.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-b04d2c80.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-540e4980.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-298196a7.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-f73592f3.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-928e556f.js">
@@ -21,7 +21,7 @@
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-a18a96ab.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-9325fd92.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/coords-9a57de07.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-0a4940e0.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-1ac9a52b.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -85,52 +85,64 @@
 
 <div id="control" class="grid grid-cols-2 gap-y-6 gap-x-4"><section class="flex flex-col text-lg font-medium"><p class="text-lg">Name</p>
     <input type="text" class="max-w-md mt-1 mb-4 pretty" value="Test">
-
     <p class="text-lg">Image Path</p>
-    <input type="text" class="max-w-md mt-1 mb-4 pretty" value="."></section>
+      <input type="text" class="max-w-md mt-1 mb-4 pretty" value="."></section>
 
   
-  <section class="font-medium leading-10"><h2 class=" svelte-gftuz3">Laser and Channels</h2>
+  <section class="font-medium leading-10 "><h2 class=" svelte-1in5h2s">Laser and Channels</h2>
     <div class="grid grid-cols-2"><p class="flex flex-col">
-        <span><label><input type="checkbox" class="mr-1 rounded text-lime-500 focus:ring-lime-300" checked>
-            <div class="inline">Laser:
-              <div class="inline text-green-800">532 nm</div></div></label>
-          <input type="number" class="w-20 h-8 mr-1 pretty"  value="0">
-          mW
-        </span>
+  <span><label><input type="checkbox" class="mr-1 rounded text-lime-500 focus:ring-lime-300 svelte-6ipz4o" checked>
+      <div class="inline text-green-800">532 nm</div></label>
+    <input type="number" class="w-20 h-8 mr-1 pretty"  value="0">
+    mW
+  </span>
 
-        <label class="rounded-lg channel ring-red-500 svelte-gftuz3"><input type="checkbox" class="mr-1 text-green-500 rounded focus:ring-green-300" checked>
-          Channel 0
-        </label>
+  <label class="rounded-lg channel ring-red-500 svelte-6ipz4o"><input type="checkbox" class="mr-1 rounded text-green-500 focus:ring-green-300 svelte-6ipz4o" checked>
+    Channel 0</label>
 
-        <label class="channel svelte-gftuz3"><input type="checkbox" class="mr-1 text-orange-600 rounded focus:ring-orange-300" checked>
-          Channel 1
-        </label>
+  <label class="channel svelte-6ipz4o"><input type="checkbox" class="mr-1 rounded text-orange-600 rounded focus:ring-orange-300 svelte-6ipz4o" checked>
+    Channel 1</label>
 
-        <span class="ml-8 font-normal opacity-85">Filter OD
-          <select class="py-1 text-sm border-gray-400 rounded disabled:border-gray-300"><option value="Open">Open</option><option value="1.0">1.0</option><option value="2.0">2.0</option><option value="3.5">3.5</option><option value="3.8">3.8</option><option value="4.0">4.0</option><option value="4.5">4.5</option><option value="Closed">Closed</option></select></span></p>
+  <span class="ml-8 font-normal opacity-85">Filter OD
+    <select class="py-1 text-sm border-gray-400 rounded disabled:border-gray-300"><option value="Open">Open</option>
+        <option value="1.0">1.0</option>
+        <option value="2.0">2.0</option>
+        <option value="3.5">3.5</option>
+        <option value="3.8">3.8</option>
+        <option value="4.0">4.0</option>
+        <option value="4.5">4.5</option>
+        <option value="Closed">Closed</option></select>
+    <p class="text-sm font-medium ml-3">Effective: 0.0000 mW</p></span>
+</p>
+      <p class="flex flex-col">
+  <span><label><input type="checkbox" class="mr-1 rounded text-red-600 rounded focus:ring-red-300 svelte-6ipz4o" checked>
+      <div class="inline text-green-800">660 nm</div></label>
+    <input type="number" class="w-20 h-8 mr-1 pretty"  value="0">
+    mW
+  </span>
 
-      <p class="flex flex-col"><span><label class="whitespace-nowrap"><input type="checkbox" class="mr-1 text-red-600 rounded focus:ring-red-300" checked>
-            Laser:
-            <div class="inline text-red-800">660 nm</div></label>
-          <input type="number" class="w-20 h-8 mr-1 pretty" disabled value="0">
-          mW
-        </span>
+  <label class="rounded-lg channel ring-red-500 svelte-6ipz4o"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500 svelte-6ipz4o" checked>
+    Channel 2</label>
 
-        <label class="channel svelte-gftuz3"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500" checked>
-          Channel 2
-        </label>
-        <label class="channel svelte-gftuz3"><input type="checkbox" class="mr-1 rounded text-amber-900 focus:ring-amber-700" checked>
-          Channel 3
-        </label>
+  <label class="channel svelte-6ipz4o"><input type="checkbox" class="mr-1 rounded text-amber-900 focus:ring-amber-700 svelte-6ipz4o" checked>
+    Channel 3</label>
 
-        <span class="ml-8 font-normal opacity-85">Filter OD
-          <select class="py-1 text-sm border-gray-400 rounded disabled:border-gray-300"><option value="Open">Open</option><option value="0.2">0.2</option><option value="0.5">0.5</option><option value="0.6">0.6</option><option value="1.0">1.0</option><option value="2.4">2.4</option><option value="4.0">4.0</option><option value="Closed">Closed</option></select></span></p></div></section>
+  <span class="ml-8 font-normal opacity-85">Filter OD
+    <select class="py-1 text-sm border-gray-400 rounded disabled:border-gray-300"><option value="Open">Open</option>
+        <option value="0.2">0.2</option>
+        <option value="0.5">0.5</option>
+        <option value="0.6">0.6</option>
+        <option value="1.0">1.0</option>
+        <option value="2.4">2.4</option>
+        <option value="4.0">4.0</option>
+        <option value="Closed">Closed</option></select>
+    <p class="text-sm font-medium ml-3">Effective: 0.0000 mW</p></span>
+</p></div></section>
 
   
-  <section class="flex flex-col gap-2"><h2 class="mb-1 text-xl font-semibold svelte-gftuz3">Positions</h2>
-    <div class="mb-1"><p class="mb-1">📌 Corner 1</p>
-      
+  <section class="flex flex-col gap-2"><h2 class="svelte-1in5h2s">Positions</h2>
+    <div class="-mt-1 space-y-2"><div><p class="mb-1">📌 Corner 1</p>
+        
 <div class="flex gap-x-2"><div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group svelte-awp8a4">X</span>
     <input type="number" min="-5" max="30" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28"  value="0">
     <span class="flex items-center color-group svelte-awp8a4">Y</span>
@@ -142,8 +154,8 @@
     Current
   </button>
 </div></div>
-    <div><p class="mb-1">📍 Corner 2</p>
-      
+      <div><p class="mb-1">📍 Corner 2</p>
+        
 <div class="flex gap-x-2"><div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group svelte-awp8a4">X</span>
     <input type="number" min="-5" max="30" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28"  value="1">
     <span class="flex items-center color-group svelte-awp8a4">Y</span>
@@ -154,26 +166,30 @@
   <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 rounded-lg white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" ><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
     Current
   </button>
-</div></div></section>
+</div></div>
+      <div><p class="mb-1">X-Overlap</p>
+        <input type="number" class="w-20 pretty pr-2" step="0.01" min="0" max="0.99" value="0.1">
+        (0-1)
+      </div></div></section>
 
   
-  <section class="flex flex-col gap-2"><h2 class=" svelte-gftuz3">Focus</h2>
-
-    <div class="grid grid-rows-2"><p>Z Tilt
-        <input type="number" class="w-28 pretty" value="19850"></p>
+  <section class="flex flex-col gap-2"><h2 class="svelte-1in5h2s">Focus</h2>
+    <div class="-mt-1 space-y-2"><div><p>Z Tilt</p>
+        <input type="number" class="w-28 pretty" value="19850"></div>
 
       <div>Z Objective
         <span class="flex gap-2"><input type="number" class="w-28 pretty" value="32000">
           <button type="button" class="px-4 py-1 font-medium text-gray-900 rounded-lg h-11 w-36 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
             <span>Autofocus</span></button></span></div>
 
-      <div>Z-Stack</div>
-      <div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group">Spacing</span>
-        <input type="number" min="1" max="60000" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28" >
-        <span class="flex items-center color-group">From</span>
-        <input type="number" min="-100" max="100" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28 " >
-        <span class="flex items-center color-group">To</span>
-        <input type="number" min="-100" max="100" step="0.01" class="z-10 w-20 h-10 text-center rounded-l-none rounded-r-lg pretty" ></div></div></section></div>
+      <div>Z-Stack
+        <div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group">Spacing</span>
+          <input type="number" min="1" max="60000" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28" >
+          <span class="flex items-center color-group">From</span>
+          <input type="number" min="-100" max="100" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28 " >
+          <span class="flex items-center color-group">To</span>
+          <input type="number" min="-100" max="100" step="0.01" class="z-10 w-20 h-10 text-center rounded-l-none rounded-r-lg pretty" ></div></div></div></section>
+</div>
 
 <p class="title">Preview</p>
 
@@ -340,10 +356,10 @@
 </div></div></div>
 
 
-		<script type="module" data-hydrate="1blsvz3">
-		import { start } from "/pyseq2501-web/internal/start-b04d2c80.js";
+		<script type="module" data-hydrate="pccejq">
+		import { start } from "/pyseq2501-web/internal/start-540e4980.js";
 		start({
-			target: document.querySelector('[data-hydrate="1blsvz3"]').parentNode,
+			target: document.querySelector('[data-hydrate="pccejq"]').parentNode,
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
 			session: {},
 			route: true,
@@ -354,7 +370,7 @@
 				error: null,
 				nodes: [
 					import("/pyseq2501-web/internal/pages/__layout.svelte-f73592f3.js"),
-						import("/pyseq2501-web/internal/pages/main_manual.svelte-0a4940e0.js")
+						import("/pyseq2501-web/internal/pages/main_manual.svelte-1ac9a52b.js")
 				],
 				params: {}
 			}
