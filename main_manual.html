@@ -5,23 +5,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-16a577a7.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-ef7e8504.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/logo-2468b24d.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-ceed2d61.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-b0b3812f.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_manual.svelte-6a35f24a.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/preview.svelte_svelte_type_style_lang-4be20e4b.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-540e4980.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-298196a7.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-f73592f3.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-928e556f.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/logo-637ddf52.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-4f64ec1c.js">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_manual.svelte-18510cdc.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/takeimage-e26e6a96.css">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-6075fa8a.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-720ad347.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-24d142aa.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-8b82fd67.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/logo-1d83e28e.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/store-cd2ed933.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/utils-0b1d73e0.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-a18a96ab.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-9325fd92.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-782accff.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-b7849fd3.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/coords-9a57de07.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-1ac9a52b.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-651ebd81.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/takeimage-ae97bd53.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -43,8 +44,8 @@
 
     <div class="flex-grow"></div>
 
-    <span class="text-sm font-semibold" style="color:rgb(26, 127, 55);">Connected
-    <svg aria-label="connected" role="img" height="16" viewBox="0 0 16 16" fill="rgb(26, 127, 55)" class="pl-1"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></span>
+    <span class="mt-1 text-sm font-semibold animate-bounce" style="color:rgb(207, 34, 46);">Not Connected
+    <svg role="img" height="16" viewBox="0 0 16 16" version="1.1" fill="rgb(207, 34, 46)" class="pl-1"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg></span>
 
     <div class="tabs"><button class="font-medium transition-colors h-14 tab tab-lg tab-bordered">Manual
       </button>
@@ -54,7 +55,7 @@
     <div title="Github ↗︎" class="items-center flex-none pr-4"><a target="_blank" href="https://github.com/chaichontat/pyseq2501-web" rel="noopener" class="normal-case btn btn-ghost drawer-button btn-square"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="inline-block w-6 h-6 fill-current"><path d="M256,32C132.3,32,32,134.9,32,261.7c0,101.5,64.2,187.5,153.2,217.9a17.56,17.56,0,0,0,3.8.4c8.3,0,11.5-6.1,11.5-11.4,0-5.5-.2-19.9-.3-39.1a102.4,102.4,0,0,1-22.6,2.7c-43.1,0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1,1.4-14.1h.1c22.5,2,34.3,23.8,34.3,23.8,11.2,19.6,26.2,25.1,39.6,25.1a63,63,0,0,0,25.6-6c2-14.8,7.8-24.9,14.2-30.7-49.7-5.8-102-25.5-102-113.5,0-25.1,8.7-45.6,23-61.6-2.3-5.8-10-29.2,2.2-60.8a18.64,18.64,0,0,1,5-.5c8.1,0,26.4,3.1,56.6,24.1a208.21,208.21,0,0,1,112.2,0c30.2-21,48.5-24.1,56.6-24.1a18.64,18.64,0,0,1,5,.5c12.2,31.6,4.5,55,2.2,60.8,14.3,16.1,23,36.6,23,61.6,0,88.2-52.4,107.6-102.3,113.3,8,7.1,15.2,21.1,15.2,42.5,0,30.7-.3,55.5-.3,63,0,5.4,3.1,11.5,11.4,11.5a19.35,19.35,0,0,0,4-.4C415.9,449.2,480,363.1,480,261.7,480,134.9,379.7,32,256,32Z"></path></svg></a></div></div></div>
       <div class="px-10 py-4"><div class="box-border sticky z-40 -mx-10 px-10 pb-6 shadow-md bg-white/[0.95] border-b top-16 "><div class="w-full h-4"></div>
   <span class="z-40 flex w-full space-x-2">
-  <div class="grid grid-flow-row w-36"><button type="button" class="text-lg text-white focus:ring-4 focus:ring-blue-300 shadow-lg font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2 svelte-4f7jci start"><div class="flex items-center h-12 text-lg"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 -ml-0.5 mr-1 -translate-y-[0.25px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+  <div class="grid grid-flow-row w-36"><button type="button" class="text-lg text-white focus:ring-4 shadow-lg font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2 svelte-4f7jci focus:ring-blue-300  start"><div class="flex items-center h-12 text-lg"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 -ml-0.5 mr-1 -translate-y-[0.25px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
           Capture</div></button>
 
     <button type="button" id="preview" class="text-lg mt-2 text-white focus:ring-4 focus:ring-sky-300 font-medium rounded-lg shadow px-4 py-2.5 text-center inline-flex items-center mr-2 svelte-4f7jci" ><div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -83,17 +84,17 @@
 <p class="mt-6 title">Capture Parameters</p>
 
 
-<div id="control" class="grid grid-cols-2 gap-y-6 gap-x-4"><section class="flex flex-col text-lg font-medium"><p class="text-lg">Name</p>
-    <input type="text" class="max-w-md mt-1 mb-4 pretty" value="Test">
-    <p class="text-lg">Image Path</p>
-      <input type="text" class="max-w-md mt-1 mb-4 pretty" value="."></section>
+<div id="control" class="grid grid-cols-2 gap-y-6 gap-x-4"><section class="flex flex-col text-lg font-medium"><p class="mt-1 text-lg svelte-1n65g8w">Name</p>
+    <input type="text" class="max-w-md mb-4 pretty" value="Test">
+    <p class="text-lg svelte-1n65g8w">Image Path</p>
+      <input type="text" class="max-w-md mb-4 pretty" value="."></section>
 
   
-  <section class="font-medium leading-10 "><h2 class=" svelte-1in5h2s">Laser and Channels</h2>
+  <section class="font-medium leading-10 "><h2 class="svelte-1n65g8w">Laser and Channels</h2>
     <div class="grid grid-cols-2"><p class="flex flex-col">
   <span><label><input type="checkbox" class="mr-1 rounded text-lime-500 focus:ring-lime-300 svelte-6ipz4o" checked>
-      <div class="inline text-green-800">532 nm</div></label>
-    <input type="number" class="w-20 h-8 mr-1 pretty"  value="0">
+      <div class="inline font-semibold text-green-800">532 nm</div></label>
+    <input type="number" class="w-20 h-8 mx-1 pretty"  value="0">
     mW
   </span>
 
@@ -112,12 +113,12 @@
         <option value="4.0">4.0</option>
         <option value="4.5">4.5</option>
         <option value="Closed">Closed</option></select>
-    <p class="text-sm font-medium ml-3">Effective: 0.0000 mW</p></span>
+    <p class="ml-3 text-sm font-medium">Effective: 0.0000 mW</p></span>
 </p>
       <p class="flex flex-col">
   <span><label><input type="checkbox" class="mr-1 rounded text-red-600 rounded focus:ring-red-300 svelte-6ipz4o" checked>
-      <div class="inline text-green-800">660 nm</div></label>
-    <input type="number" class="w-20 h-8 mr-1 pretty"  value="0">
+      <div class="inline font-semibold  text-red-800">660 nm</div></label>
+    <input type="number" class="w-20 h-8 mx-1 pretty"  value="0">
     mW
   </span>
 
@@ -136,76 +137,84 @@
         <option value="2.4">2.4</option>
         <option value="4.0">4.0</option>
         <option value="Closed">Closed</option></select>
-    <p class="text-sm font-medium ml-3">Effective: 0.0000 mW</p></span>
+    <p class="ml-3 text-sm font-medium">Effective: 0.0000 mW</p></span>
 </p></div></section>
 
   
-  <section class="flex flex-col gap-2"><h2 class="svelte-1in5h2s">Positions</h2>
-    <div class="-mt-1 space-y-2"><div><p class="mb-1">📌 Corner 1</p>
+  <section class="flex flex-col gap-2"><h2 class="svelte-1n65g8w">Positions</h2>
+    <div class="-mt-1 space-y-4"><div><p class="svelte-1n65g8w">📌 Corner 1</p>
         
 <div class="flex gap-x-2"><div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group svelte-awp8a4">X</span>
     <input type="number" min="-5" max="30" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28"  value="0">
     <span class="flex items-center color-group svelte-awp8a4">Y</span>
     <input type="number" min="-5" max="80" step="0.01" class="z-10 h-10 text-center rounded-l-none rounded-r-lg pretty w-28"  value="0"></div>
 
-  <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="ml-4"><div class="transition-all circle svelte-ocwmti" style="--size: 1rem; --color: white; --duration: 1s"></div></div></button>
+  <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg w-14 hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="mx-auto">Go</div></button>
 
   <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 rounded-lg white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" ><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
     Current
   </button>
 </div></div>
-      <div><p class="mb-1">📍 Corner 2</p>
+      <div><p class="svelte-1n65g8w">📍 Corner 2</p>
         
 <div class="flex gap-x-2"><div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group svelte-awp8a4">X</span>
     <input type="number" min="-5" max="30" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28"  value="1">
     <span class="flex items-center color-group svelte-awp8a4">Y</span>
     <input type="number" min="-5" max="80" step="0.01" class="z-10 h-10 text-center rounded-l-none rounded-r-lg pretty w-28"  value="1"></div>
 
-  <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="ml-4"><div class="transition-all circle svelte-ocwmti" style="--size: 1rem; --color: white; --duration: 1s"></div></div></button>
+  <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg w-14 hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="mx-auto">Go</div></button>
 
   <button type="button" class="px-4 py-1 text-sm font-medium text-gray-900 rounded-lg white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" ><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
     Current
   </button>
 </div></div>
-      <div><p class="mb-1">X-Overlap</p>
-        <input type="number" class="w-20 pretty pr-2" step="0.01" min="0" max="0.99" value="0.1">
-        (0-1)
-      </div></div></section>
+      <div class="flex"><div><p class="svelte-1n65g8w">X-Overlap</p>
+          <input type="number" class="w-20 pr-2 pretty" step="0.01" min="0" max="0.99" value="0.1">
+          (0-1)
+        </div>
+        <div class="flex flex-col justify-center mt-6 ml-8 font-normal"><span class="tabular-nums">1.00 × 1.00 mm</span>
+          <span class="tabular-nums">2 columns of 21 bundles.</span></div></div></div></section>
 
   
-  <section class="flex flex-col gap-2"><h2 class="svelte-1in5h2s">Focus</h2>
-    <div class="-mt-1 space-y-2"><div><p>Z Tilt</p>
-        <input type="number" class="w-28 pretty" value="19850"></div>
+  
+  <section class="flex flex-col gap-2"><h2 class="svelte-1n65g8w">Focus</h2>
+    <div class="-mt-1 space-y-4"><div class="flex space-x-8"><div><p class="svelte-1n65g8w">Z Tilt</p>
+          <input type="number" class="w-28 pretty" value="19850"></div>
 
-      <div>Z Objective
-        <span class="flex gap-2"><input type="number" class="w-28 pretty" value="32000">
-          <button type="button" class="px-4 py-1 font-medium text-gray-900 rounded-lg h-11 w-36 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
-            <span>Autofocus</span></button></span></div>
+        <div><p class="svelte-1n65g8w">Z Objective</p>
+          <span class="flex gap-2"><input type="number" class="w-28 pretty" value="32000">
+            <button type="button" class="px-4 py-1 font-medium text-gray-900 rounded-lg w-36 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+              <span>Autofocus</span></button></span></div></div>
 
-      <div>Z-Stack
-        <div class="flex font-medium"><span class="flex items-center border-l rounded-l-lg color-group">Spacing</span>
+      <div><p class="svelte-1n65g8w"><input type="checkbox" class="mr-1 rounded">
+          Z-Stack
+        </p>
+        <div class="flex font-medium text-gray-400" id="zBox"><span class="flex items-center border-l rounded-l-lg color-group svelte-1n65g8w">Spacing</span>
           <input type="number" min="1" max="60000" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28" >
-          <span class="flex items-center color-group">From</span>
-          <input type="number" min="-100" max="100" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28 " >
-          <span class="flex items-center color-group">To</span>
+          <span class="flex items-center color-group svelte-1n65g8w">From</span>
+          <input type="number" min="-100" max="100" step="0.01" class="z-10 h-10 text-center rounded-none pretty w-28" >
+          <span class="flex items-center color-group svelte-1n65g8w">To</span>
           <input type="number" min="-100" max="100" step="0.01" class="z-10 w-20 h-10 text-center rounded-l-none rounded-r-lg pretty" ></div></div></div></section>
 </div>
 
 <p class="title">Preview</p>
 
 
-<div id="frame" class="relative z-10 w-11/12 mx-auto mt-4 border border-gray-300 rounded-md resize-y min-h-[40vh] svelte-1ex0yha"><canvas id="canvas" width="1024" height="128" class="svelte-1ex0yha"></canvas>
+<div id="frame" class="relative z-10 w-11/12 mx-auto mt-4 border border-gray-300 rounded-md resize-y min-h-[40vh] svelte-132l8kq"><canvas id="canvas" width="2048" height="128" class="svelte-132l8kq"></canvas>
 
   
-  <div class="absolute z-40 w-2/5 h-10 top-4 left-4"><div><div role="tablist" aria-orientation="horizontal" class="p-1 bg-white shadow grid grid-cols-4 space-x-1 rounded-xl opacity-90 "><button id="headlessui-tabs-tab-6" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-green-300 svelte-1ex0yha">Channel 0</button></button>
-        <button id="headlessui-tabs-tab-7" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-orange-300 svelte-1ex0yha">Channel 1</button></button>
-        <button id="headlessui-tabs-tab-8" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-rose-300 svelte-1ex0yha">Channel 2</button></button>
-        <button id="headlessui-tabs-tab-9" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-amber-300 svelte-1ex0yha">Channel 3</button></button></div></div></div>
+  <div class="absolute z-40 w-2/5 h-10 top-4 left-4"><div><div role="tablist" aria-orientation="horizontal" class="grid grid-cols-4 p-1 space-x-1 bg-white shadow rounded-xl opacity-90 "><button id="headlessui-tabs-tab-6" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-green-300 svelte-132l8kq">Channel 0</button></button>
+        <button id="headlessui-tabs-tab-7" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-orange-300 svelte-132l8kq">Channel 1</button></button>
+        <button id="headlessui-tabs-tab-8" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-rose-300 svelte-132l8kq">Channel 2</button></button>
+        <button id="headlessui-tabs-tab-9" role="tab" type="button" aria-selected="false" tabIndex="-1"><button class="tab-button text-gray-700 hover:text-black bg-white hover:bg-amber-300 svelte-132l8kq">Channel 3</button></button></div></div></div>
+
+  <button class="absolute z-40 inline-flex items-center h-10 px-4 font-medium bg-white border rounded-lg shadow-lg top-4 right-56 opacity-90 white-button">Center
+  </button>
 
   
-  <div class="absolute z-40 inline-flex items-center h-12 bg-white border rounded-lg shadow-lg top-4 right-8 opacity-90"><span class="mx-4 font-medium cursor-pointer"><input type="checkbox" class="mr-1 text-blue-500 rounded focus:ring-blue-300" checked>
+  <div class="absolute z-40 inline-flex items-center h-10 bg-white border rounded-lg shadow-lg top-4 right-8 opacity-90"><label class="mx-4 font-medium cursor-pointer"><input type="checkbox" class="mr-1 text-blue-500 rounded focus:ring-blue-300" checked>
       Show Histogram
-    </span></div>
+    </label></div>
 
   <div id="histogram" class="absolute z-30 p-6 pb-3 bg-white rounded-lg shadow-lg shadow-gray-500 bottom-8 right-8 opacity-90 w-[400px] h-[300px]"><div class="w-full h-full box-border"><div class="pancake-chart svelte-1togmj7">
 
@@ -356,10 +365,10 @@
 </div></div></div>
 
 
-		<script type="module" data-hydrate="pccejq">
-		import { start } from "/pyseq2501-web/internal/start-540e4980.js";
+		<script type="module" data-hydrate="1byyo78">
+		import { start } from "/pyseq2501-web/internal/start-6075fa8a.js";
 		start({
-			target: document.querySelector('[data-hydrate="pccejq"]').parentNode,
+			target: document.querySelector('[data-hydrate="1byyo78"]').parentNode,
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
 			session: {},
 			route: true,
@@ -369,8 +378,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/pyseq2501-web/internal/pages/__layout.svelte-f73592f3.js"),
-						import("/pyseq2501-web/internal/pages/main_manual.svelte-1ac9a52b.js")
+					import("/pyseq2501-web/internal/pages/__layout.svelte-24d142aa.js"),
+						import("/pyseq2501-web/internal/pages/main_manual.svelte-651ebd81.js")
 				],
 				params: {}
 			}
