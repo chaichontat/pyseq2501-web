@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-6075fa8a.js",
+    "file": "start-a42bb036.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-24d142aa.js",
+    "file": "pages/__layout.svelte-8049b23c.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -26,38 +26,38 @@
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
       "_logo-1d83e28e.js",
-      "_store-cd2ed933.js",
+      "_store-29e1f109.js",
       "_utils-0b1d73e0.js",
       "_spinning-782accff.js",
-      "_coords-9a57de07.js"
+      "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-ef7e8504.css"
+      "assets/pages/__layout.svelte-2ee2669f.css"
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-8b82fd67.js",
+    "file": "pages/nav.svelte-48d439a2.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-720ad347.js",
       "_logo-1d83e28e.js",
-      "_store-cd2ed933.js",
+      "_store-29e1f109.js",
       "_utils-0b1d73e0.js",
       "_spinning-782accff.js"
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-b7849fd3.js",
+    "file": "pages/sidebar.svelte-179c822e.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-720ad347.js",
-      "_store-cd2ed933.js",
+      "_store-29e1f109.js",
       "_logo-1d83e28e.js",
-      "_coords-9a57de07.js"
+      "_coords-813c65ab.js"
     ],
     "css": [
       "assets/pages/sidebar.svelte-b0b3812f.css"
@@ -73,49 +73,49 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-03753d80.js",
+    "file": "pages/index.svelte-2291c1c6.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-720ad347.js",
-      "_store-cd2ed933.js",
-      "_takeimage-ae97bd53.js",
+      "_store-29e1f109.js",
+      "_takeimage-fe75f173.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
       "_spinning-782accff.js",
-      "_coords-9a57de07.js",
+      "_coords-813c65ab.js",
       "_utils-0b1d73e0.js"
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-651ebd81.js",
+    "file": "pages/main_manual.svelte-4a7d04e4.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-720ad347.js",
-      "_store-cd2ed933.js",
-      "_takeimage-ae97bd53.js",
+      "_store-29e1f109.js",
+      "_takeimage-fe75f173.js",
       "_spinning-782accff.js",
-      "_coords-9a57de07.js"
+      "_coords-813c65ab.js"
     ],
     "css": [
       "assets/pages/main_manual.svelte-18510cdc.css"
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-c66974ae.js",
+    "file": "pages/main_auto.svelte-8ade03b3.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-720ad347.js",
-      "_store-cd2ed933.js",
+      "_store-29e1f109.js",
       "_utils-0b1d73e0.js",
-      "_takeimage-ae97bd53.js",
+      "_takeimage-fe75f173.js",
       "_spinning-782accff.js",
-      "_coords-9a57de07.js"
+      "_coords-813c65ab.js"
     ],
     "css": [
       "assets/pages/main_auto.svelte-400357d5.css"
@@ -136,8 +136,8 @@
       "assets/logo-2468b24d.css"
     ]
   },
-  "_store-cd2ed933.js": {
-    "file": "chunks/store-cd2ed933.js",
+  "_store-29e1f109.js": {
+    "file": "chunks/store-29e1f109.js",
     "imports": [
       "_vendor-720ad347.js"
     ]
@@ -154,16 +154,16 @@
       "assets/spinning-ceed2d61.css"
     ]
   },
-  "_coords-9a57de07.js": {
-    "file": "chunks/coords-9a57de07.js"
+  "_coords-813c65ab.js": {
+    "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-ae97bd53.js": {
-    "file": "chunks/takeimage-ae97bd53.js",
+  "_takeimage-fe75f173.js": {
+    "file": "chunks/takeimage-fe75f173.js",
     "imports": [
       "_vendor-720ad347.js",
-      "_store-cd2ed933.js",
+      "_store-29e1f109.js",
       "_spinning-782accff.js",
-      "_coords-9a57de07.js"
+      "_coords-813c65ab.js"
     ],
     "css": [
       "assets/takeimage-e26e6a96.css"
