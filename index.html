@@ -5,14 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-5d7b3404.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-d40468d0.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/logo-2468b24d.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-ceed2d61.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-b0b3812f.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_manual.svelte-9e73dd8e.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/takeimage-692238e3.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_auto.svelte-400357d5.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-c8ee59e9.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-a2174578.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-5b169328.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-3b90c780.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-379c17c4.js">
@@ -22,10 +22,10 @@
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-267e294b.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-c6b49588.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/coords-813c65ab.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-e04b2ec4.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/index.svelte-ae07c5e8.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-8e45dc42.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/takeimage-ff8a9f9e.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_auto.svelte-c16455a5.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_auto.svelte-041fa7cb.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -63,16 +63,25 @@
 
   
   
-  <a href="http://localhost:8000/experiment/0" class="px-4 py-1 ml-8 text-base font-medium rounded-lg h-11 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1 svelte-1bn3tm1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-    Download Experiment
-  </a>
+  <div class="flex gap-x-2"><a href="http://localhost:8000/experiment/0" class="px-4 py-1 ml-8 text-base font-medium rounded-lg h-11 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1 svelte-1bn3tm1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+      Download
+    </a>
 
-  
-<div class="relative inline-block "><button id="headlessui-menu-button-1" type="button" aria-haspopup aria-expanded="false" class="inline-flex justify-center w-full py-1 mx-2 font-medium rounded-lg h-11 white-button">
-      <svg aria-hidden="true" class="w-5 h-5 ml-1 text-gray-600  svelte-1bn3tm1" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom; overflow: visible"><path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path></svg>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 -mr-1 text-gray-800 svelte-1bn3tm1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
-    </div></div>
+    
+    <form action="http://localhost:8000/experiment/0/" enctype="multipart/form-data" method="post"><label><input class="hidden" name="file" type="file" accept=".yaml, .yml">
+        <div class="px-4 py-1 text-base font-medium rounded-lg h-11 white-button cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 svelte-1bn3tm1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+          Upload
+        </div></label></form>
+
+    
+
+    
+<div class="relative inline-block "><button id="headlessui-menu-button-1" type="button" aria-haspopup aria-expanded="false" class="inline-flex justify-center w-full py-1 px-2 font-medium rounded-lg h-11 white-button">
+        <svg aria-hidden="true" class="w-5 h-5 ml-1 text-gray-600  svelte-1bn3tm1" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom; overflow: visible"><path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 -mr-1 text-gray-800 svelte-1bn3tm1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+
+      </div></div></div>
 
 
 
@@ -297,10 +306,10 @@ Total Time
 </div>
 
 
-		<script type="module" data-hydrate="xkyqe4">
-		import { start } from "/pyseq2501-web/internal/start-c8ee59e9.js";
+		<script type="module" data-hydrate="1ig6pyo">
+		import { start } from "/pyseq2501-web/internal/start-a2174578.js";
 		start({
-			target: document.querySelector('[data-hydrate="xkyqe4"]').parentNode,
+			target: document.querySelector('[data-hydrate="1ig6pyo"]').parentNode,
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
 			session: {},
 			route: true,
@@ -311,7 +320,7 @@ Total Time
 				error: null,
 				nodes: [
 					import("/pyseq2501-web/internal/pages/__layout.svelte-3b90c780.js"),
-						import("/pyseq2501-web/internal/pages/index.svelte-e04b2ec4.js")
+						import("/pyseq2501-web/internal/pages/index.svelte-ae07c5e8.js")
 				],
 				params: {}
 			}
