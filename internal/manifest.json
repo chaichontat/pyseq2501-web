@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-16e4038b.js",
+    "file": "start-71e1be38.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-e8bf5e07.js",
+    "file": "pages/__layout.svelte-8f495267.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -25,8 +25,8 @@
       "_vendor-de2b3913.js",
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
-      "_store-16a70ae1.js",
       "_logo-5b40b26d.js",
+      "_store-28837846.js",
       "_utils-0b1d73e0.js",
       "_spinning-a5be6584.js",
       "_coords-813c65ab.js"
@@ -36,26 +36,26 @@
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-eb5b15c6.js",
+    "file": "pages/nav.svelte-9fefb4b7.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-de2b3913.js",
       "_logo-5b40b26d.js",
-      "_store-16a70ae1.js",
+      "_store-28837846.js",
       "_utils-0b1d73e0.js",
       "_spinning-a5be6584.js"
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-41261fb7.js",
+    "file": "pages/sidebar.svelte-0360d7d1.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-de2b3913.js",
-      "_store-16a70ae1.js",
+      "_store-28837846.js",
       "_logo-5b40b26d.js",
       "_coords-813c65ab.js"
     ],
@@ -73,15 +73,15 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-6f53f393.js",
+    "file": "pages/index.svelte-314c7b99.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-de2b3913.js",
-      "_store-16a70ae1.js",
+      "_store-28837846.js",
       "src/routes/main_manual.svelte",
-      "_takeimage-96f15b96.js",
+      "_takeimage-2b84a81c.js",
       "src/routes/main_auto.svelte",
       "_spinning-a5be6584.js",
       "_coords-813c65ab.js",
@@ -89,14 +89,14 @@
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-d60ad4df.js",
+    "file": "pages/main_manual.svelte-8257bb8f.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-de2b3913.js",
-      "_store-16a70ae1.js",
-      "_takeimage-96f15b96.js",
+      "_store-28837846.js",
+      "_takeimage-2b84a81c.js",
       "_spinning-a5be6584.js",
       "_coords-813c65ab.js"
     ],
@@ -105,15 +105,15 @@
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-623367d1.js",
+    "file": "pages/main_auto.svelte-d50e26b7.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-de2b3913.js",
-      "_store-16a70ae1.js",
+      "_store-28837846.js",
       "_utils-0b1d73e0.js",
-      "_takeimage-96f15b96.js",
+      "_takeimage-2b84a81c.js",
       "_spinning-a5be6584.js",
       "_coords-813c65ab.js"
     ],
@@ -127,12 +127,6 @@
       "assets/vendor-5ea1dd6c.css"
     ]
   },
-  "_store-16a70ae1.js": {
-    "file": "chunks/store-16a70ae1.js",
-    "imports": [
-      "_vendor-de2b3913.js"
-    ]
-  },
   "_logo-5b40b26d.js": {
     "file": "chunks/logo-5b40b26d.js",
     "imports": [
@@ -140,6 +134,12 @@
     ],
     "css": [
       "assets/logo-2468b24d.css"
+    ]
+  },
+  "_store-28837846.js": {
+    "file": "chunks/store-28837846.js",
+    "imports": [
+      "_vendor-de2b3913.js"
     ]
   },
   "_utils-0b1d73e0.js": {
@@ -157,11 +157,11 @@
   "_coords-813c65ab.js": {
     "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-96f15b96.js": {
-    "file": "chunks/takeimage-96f15b96.js",
+  "_takeimage-2b84a81c.js": {
+    "file": "chunks/takeimage-2b84a81c.js",
     "imports": [
       "_vendor-de2b3913.js",
-      "_store-16a70ae1.js",
+      "_store-28837846.js",
       "_spinning-a5be6584.js",
       "_coords-813c65ab.js"
     ],
