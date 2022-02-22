@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-6df8d58b.js",
+    "file": "start-5667071f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -32,7 +32,7 @@
       "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-acd3e25d.css"
+      "assets/pages/__layout.svelte-928c75ce.css"
     ]
   },
   "src/routes/nav.svelte": {
@@ -73,7 +73,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-f405630c.js",
+    "file": "pages/index.svelte-dc2b568d.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -81,7 +81,7 @@
       "_vendor-b4247f54.js",
       "_store-5660c97f.js",
       "src/routes/main_manual.svelte",
-      "_takeimage-9ca0c6bd.js",
+      "_takeimage-21840596.js",
       "src/routes/main_auto.svelte",
       "_spinning-532aadfd.js",
       "_coords-813c65ab.js",
@@ -89,14 +89,14 @@
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-cd239e69.js",
+    "file": "pages/main_manual.svelte-c17552a4.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-b4247f54.js",
       "_store-5660c97f.js",
-      "_takeimage-9ca0c6bd.js",
+      "_takeimage-21840596.js",
       "_spinning-532aadfd.js",
       "_coords-813c65ab.js"
     ],
@@ -105,7 +105,7 @@
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-ff07bd56.js",
+    "file": "pages/main_auto.svelte-9c76a833.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -113,12 +113,12 @@
       "_vendor-b4247f54.js",
       "_store-5660c97f.js",
       "_utils-0b1d73e0.js",
-      "_takeimage-9ca0c6bd.js",
+      "_takeimage-21840596.js",
       "_spinning-532aadfd.js",
       "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/main_auto.svelte-61310bb4.css"
+      "assets/pages/main_auto.svelte-c92736d7.css"
     ]
   },
   "_vendor-b4247f54.js": {
@@ -157,8 +157,8 @@
   "_coords-813c65ab.js": {
     "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-9ca0c6bd.js": {
-    "file": "chunks/takeimage-9ca0c6bd.js",
+  "_takeimage-21840596.js": {
+    "file": "chunks/takeimage-21840596.js",
     "imports": [
       "_vendor-b4247f54.js",
       "_store-5660c97f.js",
