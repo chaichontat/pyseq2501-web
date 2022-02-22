@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-89592e00.js",
+    "file": "start-ea77952e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -32,7 +32,7 @@
       "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-9372f108.css"
+      "assets/pages/__layout.svelte-c948041e.css"
     ]
   },
   "src/routes/nav.svelte": {
@@ -73,7 +73,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-2872d05a.js",
+    "file": "pages/index.svelte-2f4219f8.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -82,21 +82,21 @@
       "_store-7ddc7fb8.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
-      "_takeimage-b41983e1.js",
+      "_takeimage-0c18ae21.js",
       "_spinning-a6fe8392.js",
       "_coords-813c65ab.js",
       "_utils-0b1d73e0.js"
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-380638be.js",
+    "file": "pages/main_manual.svelte-9f5c343f.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9622d588.js",
       "_store-7ddc7fb8.js",
-      "_takeimage-b41983e1.js",
+      "_takeimage-0c18ae21.js",
       "_spinning-a6fe8392.js",
       "_coords-813c65ab.js"
     ],
@@ -105,7 +105,7 @@
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-bce019b0.js",
+    "file": "pages/main_auto.svelte-7c504a93.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -113,7 +113,7 @@
       "_vendor-9622d588.js",
       "_store-7ddc7fb8.js",
       "_utils-0b1d73e0.js",
-      "_takeimage-b41983e1.js",
+      "_takeimage-0c18ae21.js",
       "_spinning-a6fe8392.js",
       "_coords-813c65ab.js"
     ],
@@ -157,8 +157,8 @@
   "_coords-813c65ab.js": {
     "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-b41983e1.js": {
-    "file": "chunks/takeimage-b41983e1.js",
+  "_takeimage-0c18ae21.js": {
+    "file": "chunks/takeimage-0c18ae21.js",
     "imports": [
       "_vendor-9622d588.js",
       "_store-7ddc7fb8.js",

@@ -5,13 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-9372f108.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-c948041e.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/logo-2468b24d.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/spinning-ceed2d61.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-b0b3812f.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/main_manual.svelte-9e73dd8e.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/takeimage-692238e3.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-89592e00.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-ea77952e.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-9622d588.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-2bfb963d.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-b8aed35a.js">
@@ -21,8 +21,8 @@
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/spinning-a6fe8392.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-af01b9a2.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/coords-813c65ab.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-380638be.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/takeimage-b41983e1.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/main_manual.svelte-9f5c343f.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/takeimage-0c18ae21.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -101,11 +101,12 @@
   
   <section class="font-medium leading-10 "><h2 class="svelte-1m4l8fo">Laser and Channels</h2>
     <div class="grid grid-cols-2"><p class="flex flex-col">
-  <span><label><input type="checkbox" class="mr-1 rounded text-lime-500 focus:ring-lime-300 svelte-6ipz4o" checked>
+  <span class="flex items-center gap-x-2"><label><input type="checkbox" class="rounded mr-1 text-lime-500 focus:ring-lime-300 svelte-6ipz4o" checked>
       <div class="inline font-semibold text-green-800">532 nm</div></label>
-    <input type="number" class="w-20 h-8 mx-1 pretty"  value="0">
+
+    <input type="number" class="w-20 h-8 pretty"  value="0">
     mW
-  </span>
+    <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg w-14 hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="mx-auto">Set</div></button></span>
 
   <label class="rounded-lg channel ring-red-500 svelte-6ipz4o"><input type="checkbox" class="mr-1 rounded text-green-500 focus:ring-green-300 svelte-6ipz4o" checked>
     Channel 0</label>
@@ -114,7 +115,7 @@
     Channel 1</label>
 
   <span class="ml-8 font-normal opacity-85">Filter OD
-    <select class="py-1 text-sm border-gray-400 rounded disabled:border-gray-300"><option value="Open">Open</option>
+    <select class="py-1 text-sm border-gray-400 rounded-lg disabled:border-gray-300"><option value="Open">Open</option>
         <option value="1.0">1.0</option>
         <option value="2.0">2.0</option>
         <option value="3.5">3.5</option>
@@ -125,11 +126,12 @@
     <p class="ml-3 text-sm font-medium">Effective: 0.0000 mW</p></span>
 </p>
       <p class="flex flex-col">
-  <span><label><input type="checkbox" class="mr-1 rounded text-red-600 rounded focus:ring-red-300 svelte-6ipz4o" checked>
+  <span class="flex items-center gap-x-2"><label><input type="checkbox" class="rounded mr-1 text-red-600 rounded focus:ring-red-300 svelte-6ipz4o" checked>
       <div class="inline font-semibold  text-red-800">660 nm</div></label>
-    <input type="number" class="w-20 h-8 mx-1 pretty"  value="0">
+
+    <input type="number" class="w-20 h-8 pretty"  value="0">
     mW
-  </span>
+    <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg w-14 hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="mx-auto">Set</div></button></span>
 
   <label class="rounded-lg channel ring-red-500 svelte-6ipz4o"><input type="checkbox" class="mr-1 rounded text-rose-700 focus:ring-rose-500 svelte-6ipz4o" checked>
     Channel 2</label>
@@ -138,7 +140,7 @@
     Channel 3</label>
 
   <span class="ml-8 font-normal opacity-85">Filter OD
-    <select class="py-1 text-sm border-gray-400 rounded disabled:border-gray-300"><option value="Open">Open</option>
+    <select class="py-1 text-sm border-gray-400 rounded-lg disabled:border-gray-300"><option value="Open">Open</option>
         <option value="0.2">0.2</option>
         <option value="0.5">0.5</option>
         <option value="0.6">0.6</option>
@@ -190,11 +192,13 @@
   
   <section class="flex flex-col gap-2"><h2 class="svelte-1m4l8fo">Focus</h2>
     <div class="-mt-1 space-y-4"><div class="flex space-x-8"><div><p class="svelte-1m4l8fo">Z Tilt</p>
-          <input type="number" class="w-28 pretty" value="19850"></div>
-
+          <div class="flex gap-2"><input type="number" class="w-28 pretty" value="19850">
+            <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg w-14 hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="mx-auto">Go</div></button></div></div>
         <div><p class="svelte-1m4l8fo">Z Objective</p>
           <span class="flex gap-2"><input type="number" class="w-28 pretty" value="32000">
+            <button type="button" class="px-4 py-1 text-sm font-medium text-blue-800 border-blue-300 rounded-lg w-14 hover:bg-blue-100 active:bg-blue-200 bg-blue-50 white-button disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500" tabindex="0" ><div class="mx-auto">Go</div></button>
             <button type="button" class="px-4 py-1 font-medium text-gray-900 rounded-lg w-36 white-button"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+
               <span>Autofocus</span></button></span></div></div>
 
       <div class="space-y-2"><label><input type="checkbox" class="mr-1 rounded">
@@ -378,10 +382,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="eh1vpa">
-		import { start } from "/pyseq2501-web/internal/start-89592e00.js";
+		<script type="module" data-hydrate="4vro2k">
+		import { start } from "/pyseq2501-web/internal/start-ea77952e.js";
 		start({
-			target: document.querySelector('[data-hydrate="eh1vpa"]').parentNode,
+			target: document.querySelector('[data-hydrate="4vro2k"]').parentNode,
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
 			session: {},
 			route: true,
@@ -392,7 +396,7 @@
 				error: null,
 				nodes: [
 					import("/pyseq2501-web/internal/pages/__layout.svelte-2bfb963d.js"),
-						import("/pyseq2501-web/internal/pages/main_manual.svelte-380638be.js")
+						import("/pyseq2501-web/internal/pages/main_manual.svelte-9f5c343f.js")
 				],
 				params: {}
 			}
