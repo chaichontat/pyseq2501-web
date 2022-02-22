@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-70ee957f.js",
+    "file": "start-bd37b241.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-adcaba70.js",
+    "file": "pages/__layout.svelte-3aaa6dc6.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -26,36 +26,36 @@
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
       "_logo-acce5c2b.js",
-      "_store-ed9bdf9f.js",
+      "_store-d714bfcb.js",
       "_utils-0b1d73e0.js",
       "_spinning-267e294b.js",
       "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-277471a8.css"
+      "assets/pages/__layout.svelte-168e1ba3.css"
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-0465e38f.js",
+    "file": "pages/nav.svelte-1488f14b.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-5b169328.js",
       "_logo-acce5c2b.js",
-      "_store-ed9bdf9f.js",
+      "_store-d714bfcb.js",
       "_utils-0b1d73e0.js",
       "_spinning-267e294b.js"
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-2b31e8b3.js",
+    "file": "pages/sidebar.svelte-d12aa1ae.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-5b169328.js",
-      "_store-ed9bdf9f.js",
+      "_store-d714bfcb.js",
       "_logo-acce5c2b.js",
       "_coords-813c65ab.js"
     ],
@@ -73,30 +73,30 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-8da00093.js",
+    "file": "pages/index.svelte-5b1cffe8.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-5b169328.js",
-      "_store-ed9bdf9f.js",
+      "_store-d714bfcb.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
-      "_takeimage-9622724b.js",
+      "_takeimage-f2fb38bf.js",
       "_spinning-267e294b.js",
       "_coords-813c65ab.js",
       "_utils-0b1d73e0.js"
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-72cc5ab8.js",
+    "file": "pages/main_manual.svelte-a182420d.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-5b169328.js",
-      "_store-ed9bdf9f.js",
-      "_takeimage-9622724b.js",
+      "_store-d714bfcb.js",
+      "_takeimage-f2fb38bf.js",
       "_spinning-267e294b.js",
       "_coords-813c65ab.js"
     ],
@@ -105,20 +105,20 @@
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-7fb974c9.js",
+    "file": "pages/main_auto.svelte-db3a4b57.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-5b169328.js",
-      "_store-ed9bdf9f.js",
+      "_store-d714bfcb.js",
       "_utils-0b1d73e0.js",
-      "_takeimage-9622724b.js",
+      "_takeimage-f2fb38bf.js",
       "_spinning-267e294b.js",
       "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/main_auto.svelte-400357d5.css"
+      "assets/pages/main_auto.svelte-61310bb4.css"
     ]
   },
   "_vendor-5b169328.js": {
@@ -136,8 +136,8 @@
       "assets/logo-2468b24d.css"
     ]
   },
-  "_store-ed9bdf9f.js": {
-    "file": "chunks/store-ed9bdf9f.js",
+  "_store-d714bfcb.js": {
+    "file": "chunks/store-d714bfcb.js",
     "imports": [
       "_vendor-5b169328.js"
     ]
@@ -157,11 +157,11 @@
   "_coords-813c65ab.js": {
     "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-9622724b.js": {
-    "file": "chunks/takeimage-9622724b.js",
+  "_takeimage-f2fb38bf.js": {
+    "file": "chunks/takeimage-f2fb38bf.js",
     "imports": [
       "_vendor-5b169328.js",
-      "_store-ed9bdf9f.js",
+      "_store-d714bfcb.js",
       "_spinning-267e294b.js",
       "_coords-813c65ab.js"
     ],
