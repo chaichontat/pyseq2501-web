@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c65f26ec.js",
+    "file": "start-f2dfd3ee.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-9b891bbc.js",
+    "file": "pages/__layout.svelte-1f60f03d.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -26,24 +26,24 @@
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
       "_logo-9226b596.js",
-      "_store-778decd6.js",
+      "_store-cb7bda8e.js",
       "_tooltip-9431c815.js",
       "_coords-813c65ab.js",
-      "_preview-d11f77af.js"
+      "_preview-5a92f6af.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-a2de1139.css"
+      "assets/pages/__layout.svelte-60d0bede.css"
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-ec1c7774.js",
+    "file": "pages/nav.svelte-a627dd74.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-3b7a823e.js",
       "_logo-9226b596.js",
-      "_store-778decd6.js",
+      "_store-cb7bda8e.js",
       "_tooltip-9431c815.js"
     ],
     "css": [
@@ -51,16 +51,16 @@
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-4a21d466.js",
+    "file": "pages/sidebar.svelte-daf5e162.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-3b7a823e.js",
-      "_store-778decd6.js",
+      "_store-cb7bda8e.js",
       "_logo-9226b596.js",
       "_coords-813c65ab.js",
-      "_preview-d11f77af.js"
+      "_preview-5a92f6af.js"
     ],
     "css": [
       "assets/pages/sidebar.svelte-b0b3812f.css"
@@ -76,15 +76,15 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ee7f0b62.js",
+    "file": "pages/index.svelte-0409f319.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-3b7a823e.js",
-      "_store-778decd6.js",
-      "_preview-d11f77af.js",
-      "_takeimage-20d8fe7f.js",
+      "_store-cb7bda8e.js",
+      "_preview-5a92f6af.js",
+      "_takeimage-8dfc1898.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
       "_coords-813c65ab.js",
@@ -92,16 +92,16 @@
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-cad05a28.js",
+    "file": "pages/main_manual.svelte-9fef4820.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-3b7a823e.js",
-      "_preview-d11f77af.js",
-      "_store-778decd6.js",
+      "_preview-5a92f6af.js",
+      "_store-cb7bda8e.js",
       "_tooltip-9431c815.js",
-      "_takeimage-20d8fe7f.js",
+      "_takeimage-8dfc1898.js",
       "_coords-813c65ab.js"
     ],
     "css": [
@@ -109,15 +109,15 @@
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-f602cf9a.js",
+    "file": "pages/main_auto.svelte-6e11ed9d.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-3b7a823e.js",
-      "_store-778decd6.js",
+      "_store-cb7bda8e.js",
       "_tooltip-9431c815.js",
-      "_takeimage-20d8fe7f.js",
+      "_takeimage-8dfc1898.js",
       "_coords-813c65ab.js"
     ],
     "css": [
@@ -139,17 +139,17 @@
       "assets/logo-2468b24d.css"
     ]
   },
-  "_store-778decd6.js": {
-    "file": "chunks/store-778decd6.js",
+  "_store-cb7bda8e.js": {
+    "file": "chunks/store-cb7bda8e.js",
     "imports": [
       "_vendor-3b7a823e.js"
     ]
   },
-  "_preview-d11f77af.js": {
-    "file": "chunks/preview-d11f77af.js",
+  "_preview-5a92f6af.js": {
+    "file": "chunks/preview-5a92f6af.js",
     "imports": [
       "_vendor-3b7a823e.js",
-      "_store-778decd6.js"
+      "_store-cb7bda8e.js"
     ],
     "css": [
       "assets/preview-efaf3a55.css"
@@ -167,12 +167,12 @@
   "_coords-813c65ab.js": {
     "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-20d8fe7f.js": {
-    "file": "chunks/takeimage-20d8fe7f.js",
+  "_takeimage-8dfc1898.js": {
+    "file": "chunks/takeimage-8dfc1898.js",
     "imports": [
       "_vendor-3b7a823e.js",
       "_coords-813c65ab.js",
-      "_store-778decd6.js",
+      "_store-cb7bda8e.js",
       "_tooltip-9431c815.js"
     ],
     "css": [
