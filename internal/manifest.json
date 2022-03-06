@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a189f151.js",
+    "file": "start-b4d934c3.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-791ea25a.js"
+      "_vendor-86a163ee.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -17,156 +17,156 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-0e48ada6.js",
+    "file": "pages/__layout.svelte-b2915f45.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js",
+      "_vendor-86a163ee.js",
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
-      "_logo-8ee91590.js",
-      "_utils-e33c5767.js",
-      "_tooltip-d3775260.js",
-      "_go-7ea28e96.js"
+      "_logo-6b4df7f2.js",
+      "_utils-2dc1caf8.js",
+      "_tooltip-8c168986.js",
+      "_go-cd27acc0.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-264766de.css"
+      "assets/pages/__layout.svelte-ba98639b.css"
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-e75b8f95.js",
+    "file": "pages/nav.svelte-a2b6e0af.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js",
-      "_logo-8ee91590.js",
-      "_utils-e33c5767.js",
-      "_tooltip-d3775260.js"
+      "_vendor-86a163ee.js",
+      "_logo-6b4df7f2.js",
+      "_utils-2dc1caf8.js",
+      "_tooltip-8c168986.js"
     ],
     "css": [
       "assets/pages/nav.svelte-9629cb70.css"
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-c88d24e2.js",
+    "file": "pages/sidebar.svelte-31f119ad.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js",
-      "_utils-e33c5767.js",
-      "_logo-8ee91590.js",
-      "_go-7ea28e96.js"
+      "_vendor-86a163ee.js",
+      "_utils-2dc1caf8.js",
+      "_logo-6b4df7f2.js",
+      "_go-cd27acc0.js"
     ],
     "css": [
       "assets/pages/sidebar.svelte-6afad441.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-9e0289c3.js",
+    "file": "error.svelte-9e3bc2e7.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js"
+      "_vendor-86a163ee.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7d063482.js",
+    "file": "pages/index.svelte-ec84bb22.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js",
-      "_utils-e33c5767.js",
-      "_takeimage-e415504b.js",
+      "_vendor-86a163ee.js",
+      "_utils-2dc1caf8.js",
+      "_takeimage-12e0fe36.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
-      "_go-7ea28e96.js",
-      "_tooltip-d3775260.js"
+      "_go-cd27acc0.js",
+      "_tooltip-8c168986.js"
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-090d77dc.js",
+    "file": "pages/main_manual.svelte-3a67e8e1.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js",
-      "_takeimage-e415504b.js",
-      "_utils-e33c5767.js",
-      "_tooltip-d3775260.js",
-      "_go-7ea28e96.js"
+      "_vendor-86a163ee.js",
+      "_takeimage-12e0fe36.js",
+      "_utils-2dc1caf8.js",
+      "_tooltip-8c168986.js",
+      "_go-cd27acc0.js"
     ],
     "css": [
-      "assets/pages/main_manual.svelte-97d44ec5.css"
+      "assets/pages/main_manual.svelte-3f77c792.css"
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-1bddbdc6.js",
+    "file": "pages/main_auto.svelte-dce7eb87.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-791ea25a.js",
-      "_utils-e33c5767.js",
-      "_tooltip-d3775260.js",
-      "_takeimage-e415504b.js",
-      "_go-7ea28e96.js"
+      "_vendor-86a163ee.js",
+      "_utils-2dc1caf8.js",
+      "_tooltip-8c168986.js",
+      "_takeimage-12e0fe36.js",
+      "_go-cd27acc0.js"
     ],
     "css": [
       "assets/pages/main_auto.svelte-93bebcd5.css"
     ]
   },
-  "_vendor-791ea25a.js": {
-    "file": "chunks/vendor-791ea25a.js",
+  "_vendor-86a163ee.js": {
+    "file": "chunks/vendor-86a163ee.js",
     "css": [
       "assets/vendor-5ea1dd6c.css"
     ]
   },
-  "_logo-8ee91590.js": {
-    "file": "chunks/logo-8ee91590.js",
+  "_logo-6b4df7f2.js": {
+    "file": "chunks/logo-6b4df7f2.js",
     "imports": [
-      "_vendor-791ea25a.js"
+      "_vendor-86a163ee.js"
     ],
     "css": [
       "assets/logo-2468b24d.css"
     ]
   },
-  "_utils-e33c5767.js": {
-    "file": "chunks/utils-e33c5767.js",
+  "_utils-2dc1caf8.js": {
+    "file": "chunks/utils-2dc1caf8.js",
     "imports": [
-      "_vendor-791ea25a.js"
+      "_vendor-86a163ee.js"
     ],
     "css": [
       "assets/utils-87f306a8.css"
     ]
   },
-  "_tooltip-d3775260.js": {
-    "file": "chunks/tooltip-d3775260.js",
+  "_tooltip-8c168986.js": {
+    "file": "chunks/tooltip-8c168986.js",
     "imports": [
-      "_vendor-791ea25a.js"
+      "_vendor-86a163ee.js"
     ]
   },
-  "_go-7ea28e96.js": {
-    "file": "chunks/go-7ea28e96.js",
+  "_go-cd27acc0.js": {
+    "file": "chunks/go-cd27acc0.js",
     "imports": [
-      "_vendor-791ea25a.js",
-      "_utils-e33c5767.js"
+      "_vendor-86a163ee.js",
+      "_utils-2dc1caf8.js"
     ],
     "css": [
       "assets/go-7c682308.css"
     ]
   },
-  "_takeimage-e415504b.js": {
-    "file": "chunks/takeimage-e415504b.js",
+  "_takeimage-12e0fe36.js": {
+    "file": "chunks/takeimage-12e0fe36.js",
     "imports": [
-      "_vendor-791ea25a.js",
-      "_utils-e33c5767.js",
-      "_go-7ea28e96.js",
-      "_tooltip-d3775260.js"
+      "_vendor-86a163ee.js",
+      "_utils-2dc1caf8.js",
+      "_go-cd27acc0.js",
+      "_tooltip-8c168986.js"
     ],
     "css": [
       "assets/takeimage-195859a4.css"
