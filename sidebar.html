@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-security-policy" content=""><title>PySeq 2501</title><link rel="stylesheet" href="https://rsms.me/inter/inter.css" data-svelte="svelte-1agf2lz">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/vendor-5ea1dd6c.css">
-	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-4fcdff58.css">
+	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/__layout.svelte-5b82d57c.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/nav.svelte-9629cb70.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/logo-2468b24d.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/utils-87f306a8.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/pages/sidebar.svelte-6afad441.css">
 	<link rel="stylesheet" href="/pyseq2501-web/internal/assets/go-7c682308.css">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/start-85529a19.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/start-6c3bd233.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/vendor-86a163ee.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-eaf6b6d2.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-2c59e571.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/__layout.svelte-9c6c8e2a.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/nav.svelte-f4801964.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/logo-6b4df7f2.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/utils-c0f75bea.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/tooltip-8c168986.js">
-	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-b0862f5c.js">
+	<link rel="modulepreload" href="/pyseq2501-web/internal/pages/sidebar.svelte-17b87da6.js">
 	<link rel="modulepreload" href="/pyseq2501-web/internal/chunks/go-85408bec.js">
   </head>
   <body>
@@ -181,7 +181,7 @@
           <li><span class="self-center mt-2 text-lg">Shutter:  <p class="font-mono font-bold">CLOSED</p></span></li></div></li></ol></section>
 
     <section class="relative hidden"><ol class="p-2 overflow-auto menu"><li class="mb-6"><span class="font-bold opacity-60">Ports</span>
-  <div class="pl-4 pr-2"><div class="flex items-center mt-2 ml-6 gap-x-6 "><select multiple disabled class="min-h-[500px] rounded-lg overflow-y-auto text-center px-0 py-0"><option class="px-6 py-1" value="1">1
+  <div class="pl-4 pr-2"><div class="flex items-center mt-2 ml-6 gap-x-6 "><select multiple class="min-h-[550px] rounded-lg overflow-y-auto text-center px-0 py-0"><option class="px-6 py-1" value="1">1
       </option><option class="px-6 py-1" value="2">2
       </option><option class="px-6 py-1" value="3">3
       </option><option class="px-6 py-1" value="4">4
@@ -213,13 +213,15 @@
       <button type="button" class="justify-center px-4 py-1 text-sm font-medium text-gray-900 rounded-lg white-button"><span>Select None</span></button></div>
 
     <div class="flex flex-col font-medium gap-y-1">Pull speed (μL/min)
-      <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="2000"></div>
+      <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="250"></div>
     <div class="flex flex-col font-medium gap-y-1">Push speed (μL/min)
       <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="2000"></div>
     <div class="flex flex-col font-medium gap-y-1">Wait time (s)
       <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="26"></div>
+    <div class="flex flex-col font-medium gap-y-1">Volume (μL)
+      <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="250"></div>
 
-    <button type="button" class="px-4 py-1 text-sm font-semibold rounded-lg white-button transition-all duration-100 text-indigo-800 border-indigo-300 hover:bg-indigo-100 active:bg-indigo-200 bg-indigo-50 disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500 text-lg mt-2 svelte-1rnzpdo" tabindex="0" disabled><div class="mx-auto">Pump</div>
+    <button type="button" class="px-4 py-1 text-sm font-semibold rounded-lg white-button transition-all duration-100 text-indigo-800 border-indigo-300 hover:bg-indigo-100 active:bg-indigo-200 bg-indigo-50 disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500 text-lg mt-2 svelte-1rnzpdo" tabindex="0" ><div class="mx-auto">Pump</div>
 </button></div>
 </div></div></li></ol></section>
 
@@ -351,7 +353,7 @@
           <li><span class="self-center mt-2 text-lg">Shutter:  <p class="font-mono font-bold">CLOSED</p></span></li></div></li></ol></section>
 
     <section class="relative hidden"><ol class="p-2 overflow-auto menu"><li class="mb-6"><span class="font-bold opacity-60">Ports</span>
-  <div class="pl-4 pr-2"><div class="flex items-center mt-2 ml-6 gap-x-6 "><select multiple disabled class="min-h-[500px] rounded-lg overflow-y-auto text-center px-0 py-0"><option class="px-6 py-1" value="1">1
+  <div class="pl-4 pr-2"><div class="flex items-center mt-2 ml-6 gap-x-6 "><select multiple class="min-h-[550px] rounded-lg overflow-y-auto text-center px-0 py-0"><option class="px-6 py-1" value="1">1
       </option><option class="px-6 py-1" value="2">2
       </option><option class="px-6 py-1" value="3">3
       </option><option class="px-6 py-1" value="4">4
@@ -383,13 +385,15 @@
       <button type="button" class="justify-center px-4 py-1 text-sm font-medium text-gray-900 rounded-lg white-button"><span>Select None</span></button></div>
 
     <div class="flex flex-col font-medium gap-y-1">Pull speed (μL/min)
-      <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="2000"></div>
+      <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="250"></div>
     <div class="flex flex-col font-medium gap-y-1">Push speed (μL/min)
       <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="2000"></div>
     <div class="flex flex-col font-medium gap-y-1">Wait time (s)
       <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="26"></div>
+    <div class="flex flex-col font-medium gap-y-1">Volume (μL)
+      <input type="number" min="1" max="60000" step="1" class="pr-2 text-right pretty" value="250"></div>
 
-    <button type="button" class="px-4 py-1 text-sm font-semibold rounded-lg white-button transition-all duration-100 text-indigo-800 border-indigo-300 hover:bg-indigo-100 active:bg-indigo-200 bg-indigo-50 disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500 text-lg mt-2 svelte-1rnzpdo" tabindex="0" disabled><div class="mx-auto">Pump</div>
+    <button type="button" class="px-4 py-1 text-sm font-semibold rounded-lg white-button transition-all duration-100 text-indigo-800 border-indigo-300 hover:bg-indigo-100 active:bg-indigo-200 bg-indigo-50 disabled:bg-gray-50 disabled:hover:bg-gray-50 disabled:active:bg-gray-50 disabled:text-gray-500 text-lg mt-2 svelte-1rnzpdo" tabindex="0" ><div class="mx-auto">Pump</div>
 </button></div>
 </div></div></li></ol></section>
 
@@ -398,10 +402,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="1gvboup">
-		import { start } from "/pyseq2501-web/internal/start-85529a19.js";
+		<script type="module" data-hydrate="n5czf5">
+		import { start } from "/pyseq2501-web/internal/start-6c3bd233.js";
 		start({
-			target: document.querySelector('[data-hydrate="1gvboup"]').parentNode,
+			target: document.querySelector('[data-hydrate="n5czf5"]').parentNode,
 			paths: {"base":"/pyseq2501-web","assets":"/pyseq2501-web"},
 			session: {},
 			route: true,
@@ -411,8 +415,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/pyseq2501-web/internal/pages/__layout.svelte-eaf6b6d2.js"),
-						import("/pyseq2501-web/internal/pages/sidebar.svelte-b0862f5c.js")
+					import("/pyseq2501-web/internal/pages/__layout.svelte-9c6c8e2a.js"),
+						import("/pyseq2501-web/internal/pages/sidebar.svelte-17b87da6.js")
 				],
 				params: {}
 			}
