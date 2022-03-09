@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-6c3bd233.js",
+    "file": "start-ab8a9a0e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-86a163ee.js"
+      "_vendor-09fd25a6.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -17,159 +17,152 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-9c6c8e2a.js",
+    "file": "pages/__layout.svelte-df0b29a4.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js",
+      "_vendor-09fd25a6.js",
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
-      "_logo-6b4df7f2.js",
-      "_utils-c0f75bea.js",
-      "_tooltip-8c168986.js",
-      "_go-85408bec.js"
+      "_logo-a7a61cee.js",
+      "_utils-c8f8532a.js",
+      "_tooltip-64b2f3e8.js",
+      "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-5b82d57c.css"
+      "assets/pages/__layout.svelte-8ccca189.css"
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-f4801964.js",
+    "file": "pages/nav.svelte-f6a45965.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js",
-      "_logo-6b4df7f2.js",
-      "_utils-c0f75bea.js",
-      "_tooltip-8c168986.js"
+      "_vendor-09fd25a6.js",
+      "_logo-a7a61cee.js",
+      "_utils-c8f8532a.js",
+      "_tooltip-64b2f3e8.js"
     ],
     "css": [
       "assets/pages/nav.svelte-9629cb70.css"
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-17b87da6.js",
+    "file": "pages/sidebar.svelte-11041548.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js",
-      "_utils-c0f75bea.js",
-      "_logo-6b4df7f2.js",
-      "_go-85408bec.js"
+      "_vendor-09fd25a6.js",
+      "_utils-c8f8532a.js",
+      "_logo-a7a61cee.js",
+      "_coords-813c65ab.js"
     ],
     "css": [
-      "assets/pages/sidebar.svelte-6afad441.css"
+      "assets/pages/sidebar.svelte-abf3aa14.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-9e3bc2e7.js",
+    "file": "error.svelte-e72674ba.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js"
+      "_vendor-09fd25a6.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-0f546b4a.js",
+    "file": "pages/index.svelte-fab48e5f.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js",
-      "_utils-c0f75bea.js",
-      "_takeimage-83031db2.js",
+      "_vendor-09fd25a6.js",
+      "_utils-c8f8532a.js",
+      "_takeimage-5b7c2c31.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
-      "_go-85408bec.js",
-      "_tooltip-8c168986.js"
+      "_coords-813c65ab.js",
+      "_tooltip-64b2f3e8.js"
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-1ca70a92.js",
+    "file": "pages/main_manual.svelte-d3c6b7d1.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js",
-      "_takeimage-83031db2.js",
-      "_utils-c0f75bea.js",
-      "_tooltip-8c168986.js",
-      "_go-85408bec.js"
+      "_vendor-09fd25a6.js",
+      "_takeimage-5b7c2c31.js",
+      "_utils-c8f8532a.js",
+      "_tooltip-64b2f3e8.js",
+      "_coords-813c65ab.js"
     ],
     "css": [
       "assets/pages/main_manual.svelte-dac00401.css"
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-30345784.js",
+    "file": "pages/main_auto.svelte-5b34ca1b.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-86a163ee.js",
-      "_utils-c0f75bea.js",
-      "_tooltip-8c168986.js",
-      "_takeimage-83031db2.js",
-      "_go-85408bec.js"
+      "_vendor-09fd25a6.js",
+      "_utils-c8f8532a.js",
+      "_tooltip-64b2f3e8.js",
+      "_takeimage-5b7c2c31.js",
+      "_coords-813c65ab.js"
     ],
     "css": [
       "assets/pages/main_auto.svelte-93bebcd5.css"
     ]
   },
-  "_vendor-86a163ee.js": {
-    "file": "chunks/vendor-86a163ee.js",
+  "_vendor-09fd25a6.js": {
+    "file": "chunks/vendor-09fd25a6.js",
     "css": [
       "assets/vendor-5ea1dd6c.css"
     ]
   },
-  "_logo-6b4df7f2.js": {
-    "file": "chunks/logo-6b4df7f2.js",
+  "_logo-a7a61cee.js": {
+    "file": "chunks/logo-a7a61cee.js",
     "imports": [
-      "_vendor-86a163ee.js"
+      "_vendor-09fd25a6.js"
     ],
     "css": [
       "assets/logo-2468b24d.css"
     ]
   },
-  "_utils-c0f75bea.js": {
-    "file": "chunks/utils-c0f75bea.js",
+  "_utils-c8f8532a.js": {
+    "file": "chunks/utils-c8f8532a.js",
     "imports": [
-      "_vendor-86a163ee.js"
-    ],
-    "css": [
-      "assets/utils-87f306a8.css"
+      "_vendor-09fd25a6.js"
     ]
   },
-  "_tooltip-8c168986.js": {
-    "file": "chunks/tooltip-8c168986.js",
+  "_tooltip-64b2f3e8.js": {
+    "file": "chunks/tooltip-64b2f3e8.js",
     "imports": [
-      "_vendor-86a163ee.js"
-    ]
-  },
-  "_go-85408bec.js": {
-    "file": "chunks/go-85408bec.js",
-    "imports": [
-      "_vendor-86a163ee.js",
-      "_utils-c0f75bea.js"
+      "_vendor-09fd25a6.js"
     ],
     "css": [
-      "assets/go-7c682308.css"
+      "assets/tooltip-b6b04d2e.css"
     ]
   },
-  "_takeimage-83031db2.js": {
-    "file": "chunks/takeimage-83031db2.js",
+  "_coords-813c65ab.js": {
+    "file": "chunks/coords-813c65ab.js"
+  },
+  "_takeimage-5b7c2c31.js": {
+    "file": "chunks/takeimage-5b7c2c31.js",
     "imports": [
-      "_vendor-86a163ee.js",
-      "_utils-c0f75bea.js",
-      "_go-85408bec.js",
-      "_tooltip-8c168986.js"
+      "_vendor-09fd25a6.js",
+      "_utils-c8f8532a.js",
+      "_coords-813c65ab.js",
+      "_tooltip-64b2f3e8.js"
     ],
     "css": [
-      "assets/takeimage-195859a4.css"
+      "assets/takeimage-31179077.css"
     ]
   }
 }
