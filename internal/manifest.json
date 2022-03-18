@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-19f8625a.js",
+    "file": "start-eea44680.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-7974b412.js",
+    "file": "pages/__layout.svelte-11315ff2.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -25,8 +25,8 @@
       "_vendor-1f7587d6.js",
       "src/routes/nav.svelte",
       "src/routes/sidebar.svelte",
-      "_logo-20dd79d6.js",
-      "_utils-69f2e21a.js",
+      "_logo-1f49082d.js",
+      "_utils-6e518eaa.js",
       "_tooltip-ee5265a1.js",
       "_coords-813c65ab.js"
     ],
@@ -35,14 +35,14 @@
     ]
   },
   "src/routes/nav.svelte": {
-    "file": "pages/nav.svelte-2967db00.js",
+    "file": "pages/nav.svelte-ab6f0ac0.js",
     "src": "src/routes/nav.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1f7587d6.js",
-      "_logo-20dd79d6.js",
-      "_utils-69f2e21a.js",
+      "_logo-1f49082d.js",
+      "_utils-6e518eaa.js",
       "_tooltip-ee5265a1.js"
     ],
     "css": [
@@ -50,14 +50,14 @@
     ]
   },
   "src/routes/sidebar.svelte": {
-    "file": "pages/sidebar.svelte-a75a5443.js",
+    "file": "pages/sidebar.svelte-2ec32477.js",
     "src": "src/routes/sidebar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1f7587d6.js",
-      "_utils-69f2e21a.js",
-      "_logo-20dd79d6.js",
+      "_utils-6e518eaa.js",
+      "_logo-1f49082d.js",
       "_coords-813c65ab.js"
     ],
     "css": [
@@ -74,14 +74,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-08191c88.js",
+    "file": "pages/index.svelte-f8d91293.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1f7587d6.js",
-      "_utils-69f2e21a.js",
-      "_takeimage-bc6a97fb.js",
+      "_utils-6e518eaa.js",
+      "_takeimage-81b39bc0.js",
       "src/routes/main_manual.svelte",
       "src/routes/main_auto.svelte",
       "_coords-813c65ab.js",
@@ -89,14 +89,14 @@
     ]
   },
   "src/routes/main_manual.svelte": {
-    "file": "pages/main_manual.svelte-a8b23cd1.js",
+    "file": "pages/main_manual.svelte-8275645a.js",
     "src": "src/routes/main_manual.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1f7587d6.js",
-      "_takeimage-bc6a97fb.js",
-      "_utils-69f2e21a.js",
+      "_takeimage-81b39bc0.js",
+      "_utils-6e518eaa.js",
       "_tooltip-ee5265a1.js",
       "_coords-813c65ab.js"
     ],
@@ -105,14 +105,14 @@
     ]
   },
   "src/routes/main_auto.svelte": {
-    "file": "pages/main_auto.svelte-1ffc1540.js",
+    "file": "pages/main_auto.svelte-a3dab536.js",
     "src": "src/routes/main_auto.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1f7587d6.js",
-      "_utils-69f2e21a.js",
-      "_takeimage-bc6a97fb.js",
+      "_utils-6e518eaa.js",
+      "_takeimage-81b39bc0.js",
       "_tooltip-ee5265a1.js",
       "_coords-813c65ab.js"
     ],
@@ -126,18 +126,18 @@
       "assets/vendor-5ea1dd6c.css"
     ]
   },
-  "_logo-20dd79d6.js": {
-    "file": "chunks/logo-20dd79d6.js",
+  "_logo-1f49082d.js": {
+    "file": "chunks/logo-1f49082d.js",
     "imports": [
       "_vendor-1f7587d6.js",
-      "_utils-69f2e21a.js"
+      "_utils-6e518eaa.js"
     ],
     "css": [
       "assets/logo-35fb4a2f.css"
     ]
   },
-  "_utils-69f2e21a.js": {
-    "file": "chunks/utils-69f2e21a.js",
+  "_utils-6e518eaa.js": {
+    "file": "chunks/utils-6e518eaa.js",
     "imports": [
       "_vendor-1f7587d6.js"
     ]
@@ -154,11 +154,11 @@
   "_coords-813c65ab.js": {
     "file": "chunks/coords-813c65ab.js"
   },
-  "_takeimage-bc6a97fb.js": {
-    "file": "chunks/takeimage-bc6a97fb.js",
+  "_takeimage-81b39bc0.js": {
+    "file": "chunks/takeimage-81b39bc0.js",
     "imports": [
       "_vendor-1f7587d6.js",
-      "_utils-69f2e21a.js",
+      "_utils-6e518eaa.js",
       "_coords-813c65ab.js",
       "_tooltip-ee5265a1.js"
     ],
