@@ -3,14 +3,16 @@ from __future__ import annotations
 import asyncio
 import logging
 import time
-from typing import Literal, NoReturn
+from typing import Literal
 
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
 from websockets.exceptions import ConnectionClosedOK
 
-from pyseq2.imager import Imager, State
+from pyseq2 import Imager
+from pyseq2.config import CONFIG, Config
+from pyseq2.imager import State
 
 logger = logging.getLogger(__name__)
 
@@ -82,7 +84,7 @@ async def poll_msg(ws: WebSocket, q: asyncio.Queue[str], key: str) -> None:
             message = await q.get()
             state = state.copy(update={key: Message(msg=message, t=time.time())})
             await ws.send_json(jsonable_encoder(state))
-        except asyncio.CancelledError as e:
+        except asyncio.CancelledError:
             break
         except BaseException as e:
             logger.error(f"Error in poll_msg: {e}")
@@ -128,3 +130,8 @@ async def poll_state(ws: WebSocket) -> None:
         ...
     finally:
         [task.cancel() for task in tasks]
+
+
+@router.get("/config", response_model=Config)
+async def send_config() -> Config:
+    return CONFIG

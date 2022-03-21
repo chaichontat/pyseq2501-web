@@ -5,12 +5,6 @@
   export let hist: Hist;
   let max: number;
 
-  function range(a, b, step) {
-    const array = [];
-    for (; a <= b; a += step) array.push(a);
-    return array;
-  }
-
   function gen_xy(bin_edges: number[], counts: number[]): { x: number; y: number }[] {
     return bin_edges.map((x: number, i: number) => ({ x, y: counts[i] }));
   }
@@ -28,14 +22,14 @@
   }
 </script>
 
-<div class="w-full h-full box-border">
+<div class="box-border h-full w-full">
   <Pancake.Chart x1={-10} x2={4096 + 10} y1={0} y2={max}>
     <Pancake.Columns data={f} width={80}>
-      <div class="absolute w-full bg-blue-800 bottom-6 h-[90%] opacity-60" />
+      <div class="absolute bottom-6 h-[90%] w-full bg-blue-800 opacity-60" />
     </Pancake.Columns>
 
     <Pancake.Grid vertical count={5} let:value>
-      <span class="absolute bottom-0 right-0 text-sm text-center translate-x-1 vert">{value}</span>
+      <span class="vert absolute bottom-0 right-0 translate-x-1 text-center text-sm">{value}</span>
     </Pancake.Grid>
   </Pancake.Chart>
 </div>
@@ -44,7 +38,7 @@
   .vert::before {
     content: "";
     left: calc(50% - 1px);
-    @apply absolute -mt-1.5 w-[1px] h-1.5 top-0 rounded bg-gray-500/[0.8];
+    @apply absolute top-0 -mt-1.5 h-1.5 w-[1px] rounded bg-gray-500/[0.8];
   }
 
   .horizontal {

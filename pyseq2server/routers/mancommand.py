@@ -7,7 +7,6 @@ from contextlib import contextmanager
 from logging import getLogger
 from typing import Any, Literal
 
-import numpy as np
 from fastapi import APIRouter, Request, WebSocket, WebSocketDisconnect
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
@@ -15,10 +14,10 @@ from websockets.exceptions import ConnectionClosedOK
 
 from pyseq2 import FlowCells, Imager
 from pyseq2.experiment import Experiment
-from pyseq2server.imaging import AFImg, Img, update_afimg, update_img
-from pyseq2server.routers.status import update_block
 
 from ..api_types import CommandResponse, MoveManual, NExperiment, NTakeImage, UserSettings
+from ..imaging import AFImg, Img, update_afimg, update_img
+from ..routers.status import update_block
 from ..utils.utils import q_listener
 
 router = APIRouter()

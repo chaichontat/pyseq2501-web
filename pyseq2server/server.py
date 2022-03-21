@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import asyncio
-import os
 from logging import getLogger
 
 import numpy as np
@@ -22,7 +21,7 @@ q_log2: asyncio.Queue[str] = asyncio.Queue()
 logger = getLogger(__name__)
 
 
-def gen_server():
+def gen_server(init: bool = True):
     app = FastAPI()
     app.add_middleware(
         CORSMiddleware,
@@ -32,15 +31,18 @@ def gen_server():
         allow_headers=["*"],
     )
 
-    async def setup_backend():
+    async def setup_backend(init: bool = True) -> None:
         try:
-            ports = await get_ports(60)
+            ports = await get_ports()
         except RuntimeError as e:
             raise RuntimeError(
                 f"Cannot find instrument {e.args[1]}. If you are running a fake HiSeq, make sure to add --fake to the run argument."
             )
         imager = await Imager.ainit(ports)
         fcs = await FlowCells.ainit(ports)
+
+        if init:
+            await asyncio.gather(imager.initialize(), fcs.initialize())
 
         app.state.imager = imager
         app.state.fcs = fcs
@@ -49,7 +51,7 @@ def gen_server():
         app.state.fast_refresh = asyncio.Event()
 
         state = await imager.state
-        xy = tuple(map(lambda x: round(x, 2), raw_to_mm(False, x=state.x, y=state.y)))
+        xy = tuple(round(x, 2) for x in raw_to_mm(False, x=state.x, y=state.y))
         user = UserSettings.default()
         user.image_params = user.image_params.copy(
             update=dict(
