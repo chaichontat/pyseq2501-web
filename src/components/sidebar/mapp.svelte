@@ -50,7 +50,7 @@
     disabled={Boolean($ss.block)}
     on:click={() => {
       $ss.block = "moving";
-      $cmdStore = { move: { xy0: [0, -7.5] } };
+      $cmdStore = { move: { xy0: [30000, -7000000] } };
     }}
   >
     <svg
