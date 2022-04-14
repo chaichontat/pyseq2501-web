@@ -4,6 +4,11 @@
   import { cmdStore, statusStore as ss, userStore as us, localStore as ls } from "$src/stores/store";
   import { checkRange, flash } from "$src/utils";
 
+  if ($ls.config.machine == "HiSeq2500")
+    import Inlet from from "./inlet.svelte";
+    let inletA: Inlet{0}
+    let inletB: Inlet{1}
+
   let ports = [-1, 2, 3, 4];
   $: ports = $ls.config.ports;
 
@@ -19,6 +24,8 @@
 
   let buttonState: "ok" | "stop" | "disabled" = "ok";
   let currExp: [NExperiment | null, NExperiment | null] = [null, null];
+
+
 
   function genExperiment(sel: number[], fs: [boolean, boolean], i: 0 | 1): NExperiment | null {
     if (!fcs[i]) return null;
